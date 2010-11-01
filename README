@@ -1,0 +1,7 @@
+This is the string repository for Tender's crowdsourced i18n.
+
+To contribute, please fork the repository and send us a pull request when you're ready.
+It helps if you have some knowledge of YAML formatting, but it should be fairly self explanatory.
+
+Name your file after the locale you're translating, for example, de.yml (for de - German) or ru.yml (for ru - Russian)
+
