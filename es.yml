@@ -24,7 +24,7 @@ en:
   pending: 'pendiente'
   deleted: 'borrada'
   spam: 'spam'
-  reopen: "re-abierta"
+  reopen: "reabierta"
   closed: "cerrada"
   newest: "Más nuevas"
   oldest: "Más antiguas"
@@ -113,59 +113,59 @@ en:
     subscribe_to_feed: "Registro de cambios Tender Support"
     title: "Novedades en Tender"
     description: "Un registro de cambios escrito por lo desarrolladores"
-    notes: "Changes to the front-end HTML (customizable portions) will be marked in red below."
-    html_change: "HTML Change"
+    notes: "Los cambios al front-end HTML (zonas personalizables) aparecerán marcadas en rojo a continuación."
+    html_change: "Cambiar HTML"
   comments:
-    split: "This comment was split from the discussion: "
-    split_this_comment: "Split this comment into a new discussion on behalf of {{author}}"
-    was_split: "This comment was split into a new discussion"
-    was_split_private: "This comment was split into a new private discussion"
-    attached_files: "Attached Files"
-    posted_by: "Posted by {{author}} on {{date}}"
-    recent_comments: "Showing the most recent page of comments."
-    view_the_first_page: "View the first page"
-    reopened_message: "{{author}} {{reopened}} this discussion on {{date}}"
-    reopened: "re-opened"
-    message_internal_system: "This is a {{system_message}}, visible only to supporters"
-    message_internal_reply:  "This is an {{internal_reply}}, visible only to supporters"
-    system_message: "system message"
-    internal_reply: "internal reply"
-    resolved_on_date: "{{author}} {{resolved}} this discussion on {{date}}."
-    resolved_by_user: "{{author}} {{resolved}} this discussion."
-    label_older_comments: Older Comments 
-    label_newer_comments: Newer Comments
+    split: "Este comentario ha sido sacado de la conversación: "
+    split_this_comment: "Convertir este comentario en una nueva conversación iniciada por {{author}}"
+    was_split: "Este comentario ha sido convertido en una nueva conversación"
+    was_split_private: "Este comentario ha sido convertido en una nueva conversación privada"
+    attached_files: "Archivos adjuntos"
+    posted_by: "Escrito por {{author}} el {{date}}"
+    recent_comments: "Mostrando la página más reciente de comentarios."
+    view_the_first_page: "Ver la primera página"
+    reopened_message: "{{author}} {{reopened}} esta conversación el {{date}}"
+    reopened: "reabrió"
+    message_internal_system: "Este es un {{system_message}}, visible únicamente por el equipo de soporte"
+    message_internal_reply:  "Esta es una {{internal_reply}}, visible únicamente por el equipo de soporte"
+    system_message: "mensaje del sistema"
+    internal_reply: "respuesta interna"
+    resolved_on_date: "{{author}} {{resolved}} esta conversación el {{date}}."
+    resolved_by_user: "{{author}} {{resolved}} esta conversación."
+    label_older_comments: Comentarios más antiguos 
+    label_newer_comments: Comentarios más nuevos
     delete:
-      confirm: "Are you sure you wish to delete this comment, by {{author}}?"
-      btn_delete_permanently: "Delete Permanently"
-      title: "Remove this comment"
+      confirm: "¿Está seguro de que desea borrar este comentario escrito por {{author}}?"
+      btn_delete_permanently: "Borrar permanentemente"
+      title: "Borrar este comentario"
     index:
-      recent_comments_feed: "Recent comments"
-      recent_comments_feed_auth: "Recent comments (authenticated)"
+      recent_comments_feed: "Comentarios recientes"
+      recent_comments_feed_auth: "Comentarios recientes (identificados)"
     model:
-      cannot_update_message: "Cannot update a resolved discussion unless you are on the support team or you are the original discussion author."
-      cannot_internal_reply_message: "Cannot post an internal comment as non-support user."
+      cannot_update_message: "No es posible actualizar una conversación resuelta a menos que pertenezca al equipo de sporte o sea el usuario que inició la conversación."
+      cannot_internal_reply_message: "No se puede enviar un comentario interno sin ser miembro del equipo de soporte."
     new:
       comments_lock: 
         one: "1 comentario desde que empezó a responder:"
-        other: "{{count}} comments since you started replying:"
+        other: "{{count}} comentarios desde que comenzó a responder:"
     restore:
-      title: "Edit this comment"
+      title: "Editar este comentario"
       labels:
-        posted: "Posted by: {{author}}"
-      btn_update: "Edit Comment"
+        posted: "Escrito por: {{author}}"
+      btn_update: "Editar Comentario"
     show:
-      btn_edit_comment: "Edit Comment"
+      btn_edit_comment: "Editar Comentario"
       labels:   
-        edit_comment: "Edit Comment"
-        posted: "Posted"
-        by: "by {{author}} on {{date}}"
+        edit_comment: "Editar Comentario"
+        posted: "Escrito"
+        by: "por {{author}} el {{date}}"
         via: "Via"
-        email_headers: "Email Headers"
-        browser: "Browser"
-      use_plain_text: "Use plain text formatting (do not use Markdown)"
+        email_headers: "Cabeceras Email"
+        browser: "Navegador"
+      use_plain_text: "Usar texto plano (no use etiquetas HTML)"
   dashboard:
     home:
-      start_a_discussion: "Start a Discussion"
+      start_a_discussion: "Iniciar una conversación"
       browse_discussions: "Browse Discussions"
       representatives_here: "Representatives from the company here to listen to your issues"
       your_open_issues: "Your Open Issues"
