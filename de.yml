@@ -739,52 +739,52 @@ de:
       register:
         title: "Muss ich registriert sein?"
         description: "Nein! Starte einfach {{start_new_discussion}} anonymously.  We&rsquo;ll email you information on how to access your discussions without a password."
-        start_new_discussion: "start a new discussion" 
+        start_new_discussion: "Fang eine neue Diskussion an" 
       information_used:
-        title:"Where does this info show?"
-        description: "Keep in mind that we will never display your email address to the public."
+        title:"Wo wird diese Info angezeigt?"
+        description: "Denk dran: wir zeigen deine Mail-Adresse nie öffentlich."
         #"Information changed here will affect your account on every Tender Support install."
   watchers:
-    title: "Watchers: People Receiving Email Notifications for this Discussion"
+    title: "Beobachter: Leute, die eine Nachricht zu dieser Diskussion bekommen"
   concerns:
     anon_user:
-      is_missing: "is missing"
-      already_exists: "already exists in the system.  Please log in."
+      is_missing: "fehlt"
+      already_exists: "gibt es schon im System. Melde dich an."
   flash:
     # sessions_controller.rb
     login:
-      success: "Logged in successfully."
-      welcome: "Welcome to the {{site}} support site."
-      success_invitation: "Logged in successfully."
-      unverified: "Your user profile is still unverified. Please click the confirmation link in the activation email. You can {{unverified_link}}."
-      unverified_link: "send the link again"
-      unverified_reminder: "Your user profile is still {{unverified_reminder_link}}"
-      unverified_reminder_link: "unverified."
-      unclaimed: "Please check your email for an activation link to access the site. Click to {{unclaimed_link}} again."
-      unclaimed_link: "send the link"
-      failed: "Couldn't log you in as '{{email}}'."
-      failed_openid: "Sorry, no user by that OpenID URL exists ({{url}})."
+      success: "Erfolgreich angemeldet."
+      welcome: "Willkommen auf der {{site}} Support Seite."
+      success_invitation: "Erfolgreich angemeldet."
+      unverified: "Dein Benutzer-Profil ist noch immer nicht verifiziert. Bitte klicke auf den Link in der Aktivierungsmail. Du kannst {{unverified_link}}."
+      unverified_link: "den Link erneut schicken lassen"
+      unverified_reminder: "Dein profil ist immer noch nicht {{unverified_reminder_link}}"
+      unverified_reminder_link: "verifiziert."
+      unclaimed: "Prüfe deine Emails auf einen Aktivierungslink für diese Seite. Klicke erneut auf den {{unclaimed_link}}."
+      unclaimed_link: "Sende Link"
+      failed: "Können dich nicht als '{{email}}' anmelden."
+      failed_openid: "Sorry, für die OpenID URL existiert kein Benutzer ({{url}})."
     logout:
-      success: "You have been logged out."
+      success: "Du bist abgemeldet."
       # application.rb
-    not_found: "The page you are looking for can't be found"
+    not_found: "Die Seite, die du suchst, kan nicht gefunden werden"
     # assets_controller.rb
-    asset_delete: "{{filename}} has been deleted."
+    asset_delete: "{{filename}} wurde gelöscht."
     # autoresponders_controller.rb
     autoresponders:
-      new: "You need to set up some categories before making autoresponders."
-      success: "Successfully created your autoresponder."
-      update: "Autoresponder was successfully updated."
-      delete: "Deleted the Autoresponder"
+      new: "Du brauchst ein paar Kategorien, bevor du den Autoresponder verwenden kannst."
+      success: "Dein Autoresponder wurde erfolgreich angelegt."
+      update: "Autoresponder wurde erfolgreich geändert."
+      delete: "Autoresponder wurde gelöscht"
     # categories_controller.rb
     categories:
-      success: "Category was successfully created."
-      update: "Category was successfully updated."
-      delete: "Category was scheduled for deletion."
+      success: "Kategorie erfolgreich angelegt."
+      update: "Kategorie erfolgreich geändert."
+      delete: "Kategorie zur Löschung vorgesehen."
     # comments_controller.rb
     comments:
-      no_token: "Please try submitting your comment again (you may have been logged out before submitting the comment)."
-      success: "Your comment was posted successfully."
+      no_token: "Bitte versuch deinen Kommentar erneut zu schicken (du wurdest eventuell abgemeldet, bevor du ihn schicken konntest)."
+      success: "Dein Kommentar wurde erfolgreich gesendet."
       moderation: "You may have to wait a few moments while your comment is being moderated."
       restore: "Your comment was restored successfully.  You may have to wait a few moments while your comment is processed."
       update: "Your comment was updated successfully."
