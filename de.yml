@@ -523,222 +523,222 @@ de:
     new:
       title: "Log In"
       description: "oder erstelle ein Profil {{create_a_profile}}."
-      create_a_profile: "create a profile"
-      cross_site_login: "This site supports cross-site logins.  Please login to your {{current_site}} account and you'll be automatically logged into Tender Support."
-      unclaimed_login: "Your discussion, titled '{{discussion_title}}' was posted with an email address that already exists on this Tender site.  Please log in below to assign the discussion to your user profile."
-      automatic_login: "*Please Note:* You are currently automatically logged in via {{current_site}} as {{curent_email}}."
-      automatic_logout: "If you would like to log out, you need to log out of {{current_site}}."
-      whitelist_invite: "You can {{apply_new_account}} if you use an email address ending with {{whitelist_emails}}"
-      apply_new_account: "apply for a new account"
-      label_email: "Email Address"
-      label_password: "Password"
-      label_remember: "Remember me"
+      create_a_profile: "Erstelle ein Profil"
+      cross_site_login: "Diese Seite unterstützt cross-site logins.  Bitte melde dich bei deinem {{current_site}} Konto an und du bist automatisch bei Tender Support angemeldet."
+      unclaimed_login: "Deine Diskussion mit dem Titel '{{discussion_title}}' wurde mit einer Mail-ADresse erstellt, die bereits auf dieser Tender Seite verwendet wird.  Melde dich bitte an, um den Beitrag mit deinem Profil zu verbinden."
+      automatic_login: "*Bitte beachten:* Du bist momentan automitisch über {{current_site}} als {{curent_email}} angemeldet."
+      automatic_logout: "Um dich abzumelden, musst du dich auf {{current_site}} abmelden."
+      whitelist_invite: "Du kannst dich {{apply_new_account}}, wenn du eine Mail-Adresse mit der Endung {{whitelist_emails}} verwendest"
+      apply_new_account: "anmelden für ein neues Konto"
+      label_email: "Mail-Adresse"
+      label_password: "Passwort"
+      label_remember: "Angemeldet bleiben"
       label_openid: "OpenID"
       btn_login: "Login"
-      forgot: "Forgot your password?"
-      what_do_i_get: "What do I get with my profile?"
-      signup_description: "By registering for a profile, you'll be able to customize what discussions you're notified of and how you receive updates."
+      forgot: "Passwort vergessen?"
+      what_do_i_get: "Was kann ich mit meinem Profil machen?"
+      signup_description: "Mit einem Profil kannst du bestimmen, welche Diskussionen du gemeldet bekommst und auf welchem Weg dir die Änderungen mitgeteilt werden."
     show:
-      logged_from: "Logged in from {{sessions}} place. [clear all]"
-      last_logged: "Last logged in from *{{session.ip}}* on"
+      logged_from: "Angemeldet von {{sessions}}. [clear all]"
+      last_logged: "Letzte Anmeldung von *{{session.ip}}* am"
   site:
     mail:
       activation: |
-        Hey there {{user}},
+        Hallo {{user}},
         
-        Your account has been successfully activated.
+        Dein Konto wurde erfolgreich aktiviert.
         
-        Let us know if there's anything we can do for you!
+        Lass es uns wissen, wenn wir noch etwas für dich tun können!
         {{url}}
       
       import: |
-        Hey there,
+        Hallo,
         
-        {{site}} has moved their support to {{host}}!
+        {{site}} hat ihren Support auf {{host}} verlegt!
         
-        We'd like to ask you to confirm your account by visiting the URL below.
-        This helps us make sure that you own this email address ({{email}}).
+        Wir würden dich bitten, dein Konto durch Klicken auf die URL unten zu bestätigen.
+        Das hilft uns, sicherzugehen, dass das die Mail-Adresse ({{email}}) auch dir gehört.
         
           {{url}}
         
-        Thanks!
+        Danke!
         {{host}}
         
       forgot_password: |
-        It seems you have forgotten your password.  That's OK, it happens to the best of us!
-        Would you like to reset your password? Click here:
+        SIeht so aus, dass du dein Passwort vergessen hast.  Macht nichts, passiert den Besten!
+        Möchtest du dein Passwort zurücksetzen? Klick hier:
         
           {{url}}
         
-        If you didn't request to have your password reset, just ignore this email and your password will remain  the same.
+        Wenn die Änderungsanfrage nicht von dir kommt, ignoriere die Mail einfach und dein Passwort bleibt unverändert.
         
-        Thanks!
+        Danke!
         {{host}}
       signup: |
-        Hey there,
+        Hallo,
         
-        Thanks for creating an account on {{host}}!
+        Danke, dass du ein Konto auf {{host}} angelegt hast!
         
-        We'd like to ask you to confirm your account by visiting the URL below.
-        This helps us make sure that you own the email address you gave us ({{email}}).
+        Wir würden dich bitten, dein Konto durch Klicken auf die URL unten zu bestätigen.
+        Das hilft uns, sicherzugehen, dass das die Mail-Adresse ({{email}}) auch dir gehört.
         
           {{url}}
         
-        Thanks!
+        Danke!
         {{host}}
       token: |
-        Hey there,
+        Hallo,
         
-        You recently requested a token for the private discussion '{{title}}'.
+        Du hast kürzlich ein Kennzeichen für die private Diskussion '{{title}}' angefragt.
         
-        Please use the link below to to view the discussion.
+        Benutze bitte untenstehenden Link, um dir die Diskussion anzuschauen.
         
         {{url}}
         
-        Thanks!
+        Danke!
         {{host}}
         
       unsubscribe: |
-        Hey {{user}},
+        Hallo {{user}},
         
-        Your request to unsubscribe was successful!
-        You will no longer receive email from {{site}}.
+        Deine Abmeldung war erfolgreich!
+        Du wirst nicht länger Mails von {{site}} erhalten.
         
-        If you change your mind, simply update your notification settings: {{url}}
+        Wenn du deine Meinung änderst, ändere einfach deine Benachrichtigungsoptionen:
   shared:
-    attach_file_size: "You can attach files up to 10MB"
-    comments_parsed_with_markdown: "Comments are parsed with {{markdown}}"
+    attach_file_size: "Du kannst eine Datei mit bis zu 10MB anhängen"
+    comments_parsed_with_markdown: "Kommentare werden mit {{markdown}} gefiltert"
     adminbar:
-      trial: "Trial"
-      invalid: "Invalid"
-      title: "Account Status"
-      days_left_in_trial: "T-Minus {{current_trial}} days"
-      plan_limits: "Plan Limits "
+      trial: "Test"
+      invalid: "Ungültig"
+      title: "Kontenstatus"
+      days_left_in_trial: "T-Minus {{current_trial}} Tage"
+      plan_limits: "Planlimits "
       support_staff: "Support Staff"
-      storage_space: "Storage Space"
+      storage_space: "Storage Bereich"
       nav:
         dashboard: "Dashboard"
-        discussions: "Discussions"
+        discussions: "Diskussionen"
         knowledge_base: "Knowledge Base"
-        member_management: "Member Management"
-        site_settings: "Site Settings"
+        member_management: "Mitgliederverwaltung"
+        site_settings: "Seiteneinstellungen"
         extras: "Extras"
-        plans_and_billing: "Plans &amp; Billing"
-        reports: "Reports"
-      kb_feed_link: "Knowledge Base (authenticated)"
+        plans_and_billing: "Pläne &amp; Abrechnung"
+        reports: "Berichte"
+      kb_feed_link: "Knowledge Base (angemeldet)"
     legend:
-      title: "Legend"
+      title: "Legende"
           
   users:
     apply:
-      sorry: "Sorry, that address ({{email}}) is not eligible for a user account."
+      sorry: "Sorry, aber die Adresse ({{email}}) ist für ein Benutzerkonto nicht zulässig."
       new_account:
-        title: "Apply for an account"
-        description: "Please enter your email address.  If you have an email address ending in {{user_domain}} you can create an account."
-        checking_email: "Checking email.."
+        title: "Anmeldung für ein Konto"
+        description: "Gib deine Mail-Adresse ein. Wenn du eine Adresse hast, die auf {{user_domain}} endet, kannst du ein Konto anlegen."
+        checking_email: "Prüfe auf Nachrichten.."
     new_user_form:
-      title: "Create Your Profile"
-      description: "This profile will only work for {{site}}."
-      use_openid: "If you would like to use OpenID &ndash go ahead and {{log_in}}."
-      attach_openid: "If you already have a user profile, you'll need to {{log_in}} and attach your OpenID url: {{url}}."
-      log_in: "log in"
-      problem: "There was a problem submitting your form"
-      private_site_signup: "Your email address is valid to sign up to this site. Please choose a password with at least 6 characters to continue."
+      title: "Erstelle dein Profil"
+      description: "Dieses Profil ist nur für {{site}} gültig."
+      use_openid: "Wenn du OpenID nutzen möchtest &ndash dann los und {{log_in}}."
+      attach_openid: "Wenn du schon ein Profil hast, dann {{log_in}} und füge deine OpenID Url hinzu: {{url}}."
+      log_in: "melde dich an"
+      problem: "Es gab ein Problem mit der Verarbeitung der Maske"
+      private_site_signup: "Deine Mail-Adresse ist für diese Seite gültig. Wähle ein Passwort aus, das mindestens aus 6 Zeichen besteht."
     actions_menu:
-      unsubscribe_link: "Unsubscribe from Email Updates"
+      unsubscribe_link: "Updates per Email abbestellen"
     discussions_listing:
-      empty: "No discussions yet."
+      empty: "Bisher keine Diskussionen."
     signup_form:
-      email_address: "Email Address"
-      password: "Password"
-      password_confirm: "Password (Confirm)"
-      btn_signup: "Sign Up"
+      email_address: "Email-Adresse"
+      password: "Passwort"
+      password_confirm: "Passwort (Bestätigung)"
+      btn_signup: "Anmeldung"
     edit:
-      title: "Manage Account"
+      title: "Konto verwalten"
       description:
       account_form:
-        title: "Basic Account Information"
-        company: "Company"
-        btn_save_information: "Save Information"
-        openid: "OpenID (Optional)"
-        btn_save_openid: "Save Open ID Information"
-        email_preferences: "Email Preferences"
-        notify_me: "Notify me..."
-        involved_with: "of discussions I'm involved with"
-        starts_new_discussion: "when someone starts a *new* discussion"
-        all_discussions: "of all discussions in the {{category_name}} category."
-        add_to_queue: "when discussions are added to the {{queue_name}} queue."
-        warning: "*Warning* You probably only want to check the first checkbox (changes in my discussions). Checking these other boxes will send you emails when every discussion is changed in that category. If you don't want any emails, uncheck all boxes."
-        btn_update_prefs: "Update Preferences"
+        title: "Basiskonteninformationen"
+        company: "Firma"
+        btn_save_information: "Sichere Informationen"
+        openid: "OpenID (optional)"
+        btn_save_openid: "Sichere Open ID Information"
+        email_preferences: "Email-Voreinstellungen"
+        notify_me: "Benachrichtige mich ..."
+        involved_with: "über Dikussionen, an denen ich beteiligt bin"
+        starts_new_discussion: "wenn jemand eine *neue* Diskussion beginnt"
+        all_discussions: "über Diskussionen der {{category_name}} Kategorie."
+        add_to_queue: "wenn Diskussionen der {{queue_name}} Warteschlange hinzugefügt werden."
+        warning: "*Warnung* Du willst sicherlich nur die erste Möglichkeit auswählen (Änderungen in meinen Diskussionen). Die Auswahl der anderen Möglichkeiten schickt dir Benachrichtigungen, wann immer eine Diskussion in Bewegung ist. Wenn du überhaupt keine Mails bekommen willst, wähle keine Möglichkeit."
+        btn_update_prefs: "Einstellungen ändern"
         api_keys: "API Keys"
         label_apikey: "API Key"
         label_read_only: "Read-only API Key"
         hint_apikey: "Use for read-write access to the JSON API."
         hint_read_only: "Used in authenticated atom feeds."
     forgot_password:
-      confirmation_title: "Check your email"
-      confirmation_description: "In order to verify your identify, we've sent information on how to reset your password to {{email}}"
-      title: "Forgot password"
-      description: "Enter your email and we'll send you information on how to reset your password."
-    cross_site_login: "If you already have an account at {{site}}, you should go {{cross_site_login_link}} there."
-    cross_site_login_link: "login"
-    btn_sendemail: "Send Email"
+      confirmation_title: "Prüfe deine Emails"
+      confirmation_description: "Um deine Identität sicherzustellen, haben wir dir Informationen zum Zurücksetzen des Passwortes an {{email}} geschickt."
+      title: "Passwort vergessen"
+      description: "Gib deine Mail-Adresse ein und wir schicken dir Informationen wie man das Passwort zurücksetzt."
+    cross_site_login: "Wenn du schon ein Konto auf {{site}} hast, solltest du dich dort {{cross_site_login_link}}."
+    cross_site_login_link: "anmelden"
+    btn_sendemail: "Sende Email"
     reset_password:
-      title: "Reset your password"
-      description: "Welcome, {{user}}"
-      btn_reset: "Reset"
-    owner: "Owner"
+      title: "Dein Passwort zurücksetzen"
+      description: "Willkommen, {{user}}"
+      btn_reset: "Zurücksetzen"
+    owner: "Eigner"
     supporter: "Supporter"
-    you: "(You)"
-    account_disabled: "ACCOUNT DISABLED"
+    you: "(Du)"
+    account_disabled: "KONTO DEAKTIVIERT"
     comment_results:
-      one: "1 comment"
-      other: "{{count}} comments"
+      one: "1 Kommentar"
+      other: "{{count}} Kommentare"
     discussion_results:
-      one: "1 discussion"
-      other: "{{count}} discussions"
-    result_since: "Results since {{date}}"
+      one: "1 Diskussion"
+      other: "{{count}} Diskussionen"
+    result_since: "Ergebnisse seit {{date}}"
     welcome:
-      title: "Thanks for creating an account!"
-      description: "Now that you've created an account, you can use the support site with the buttons below."
-      cross_site_description: "This support site uses automatic logins.  If you want to login, you'll need to login at {{custom_url}}"
-      account_note: "Please note that this account will only work for {{current_host}}, the support site."
-      account_note_blank: "It will *not* work for {{current_website}}"
-      solo_msg: "*Don't forget to activate your account!* Check your email for an activation link. Activating your account disables captchas when you submit discussions."
-      btn_start_discussion: "Start a discussion"
-      btn_browse: "Browse discussions"
+      title: "Danke, dass du ein Konto angelegt hast!"
+      description: "Jetzt da du ein Konto angelegt hast, kannst du die Support-Seite mit den Buttons unten steuern."
+      cross_site_description: "Diese Support-Seite verwendet automatische Anmeldungen.  Zur Anmeldung benutze bitte folgenden Link: {{custom_url}}"
+      account_note: "Bitte beachte, dass das Konto nur für {{current_host}}, die Support-Seite, funktioniert."
+      account_note_blank: "Es funktioniert *nicht* für {{current_website}}"
+      solo_msg: "*Vergiss nicht, das Konto zu aktivieren!* Prüfe deine Emails für den Aktivierungslink. Die Aktivierung schaltet den Verifizierungscode aus, der zu jeder Eingabe benötigt wird."
+      btn_start_discussion: "Fang eine Diskussion an"
+      btn_browse: "Blätter durch die Diskussionen"
       btn_knowledge_base: "Knowledge Base"
-      open_issues: "Your Open Issues"
+      open_issues: "Deine offenen Einträge"
       not_logged_msg:
-        title: "Please activate your account."
-        description: "Thanks for creating an account. There's one more step for you to fulfil. Please click the link in the email we just sent you to verify your email address and activate your account."
-        resend_activation: "Didn't get an email? {{send_again}}"
-        send_again: "Send the link again"
-        already_confirmed: "Already confirmed?"
-      login_here: "Log in here"
-      create_account: "create a new account"
+        title: "Bitte aktiviere dein Konto."
+        description: "Danke, dass du ein Konto angelegt hast. Zur Fertigstellung ist nur noch ein Schritt notwendig. Bitte klick auf den Link in der Email, die wir dir zur Prüfung deiner Adresse und Aktivierung des Kontos, geschickt haben."
+        resend_activation: "Du hast keine Email bekommen? {{send_again}}"
+        send_again: "Lass dir den Link noch mal schicken"
+        already_confirmed: "Schon bestätigt?"
+      login_here: "Anmeldung hier"
+      create_account: "Erstelle ein neues Konto"
           
     sidebar:
       privacy:
-        title: "Privacy"
-        description: "Keep in mind that we will never display your email address to the public. It will only be used to notify you of updates."
+        title: "Privatsphäre"
+        description: "Vergiss nicht, wir zeigen deine Email-Adresse nie öffentlich. Sie wird nur zur Benachrichtigung über Veränderungen verwendet."
       custom_avatar:
-        title: "Want a custom avatar?"
-        description: "Tender will use the avatar you have set for {{user_email}} on "
+        title: "Willst du deinen Avatar anpassen?"
+        description: "Tender nutzt den Avatar, den du für {{user_email}} gesetzt hast "
       notifications:
-        title: "Notifications"
-        description: "Want to be notified of discussions as they come in? Check the Notifications section"
+        title: "Benachrichtigungen"
+        description: "Willst du über Änderungen sobald sie geschehen informiert werden? Geh in den Benachrichtigungsbereich"
       public_profile:
-        title: "View your public profile"
-        description: "{{click_here}} to view your public profile."
-        click_here: "Click here"
+        title: "Dein öffentliches Profil"
+        description: "{{click_here}}, um dein öffentliches Profil anzuschauen."
+        click_here: "Klick hier"
       use_openid:
-        title: "What if I used OpenID?"
-        description: "If you used OpenID to create your account, you&rsquo;ll need to use our {{login_form}}  to log in, and then find your password from your OpenID provider."
-        login_form: "log in form"
+        title: "Was, wenn ich OpenID benutze?"
+        description: "Wenn du OpenID für ein Konto verwendest, musst du die {{login_form}} zur Anmeldung benutzen und das Passwort deines OpenID-Providers verwenden."
+        login_form: "Anmeldemaske"
       register:
-        title: "Do I have to register?"
-        description: "Nope!  Feel free to {{start_new_discussion}} anonymously.  We&rsquo;ll email you information on how to access your discussions without a password."
+        title: "Muss ich registriert sein?"
+        description: "Nein! Starte einfach {{start_new_discussion}} anonymously.  We&rsquo;ll email you information on how to access your discussions without a password."
         start_new_discussion: "start a new discussion" 
       information_used:
         title:"Where does this info show?"
