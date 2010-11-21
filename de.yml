@@ -785,39 +785,39 @@ de:
     comments:
       no_token: "Bitte versuch deinen Kommentar erneut zu schicken (du wurdest eventuell abgemeldet, bevor du ihn schicken konntest)."
       success: "Dein Kommentar wurde erfolgreich gesendet."
-      moderation: "You may have to wait a few moments while your comment is being moderated."
-      restore: "Your comment was restored successfully.  You may have to wait a few moments while your comment is processed."
-      update: "Your comment was updated successfully."
-      delete_spam: "The comment has been marked as spam."
-      delete_harsh: "The comment has been permanently deleted."
-      delete_delete: "The comment has been deleted."
-      deleted_delay: "It may take a few moments for the comment to be removed."
+      moderation: "Du musst eventuell einen Moment warten, da dein Kommentar noch moderiert werden muss."
+      restore: "Dein Kommentar wurde wieder hergestellt. Du musst eventuell einen Moment warten bis dein Kommentar verarbeitet wurde."
+      update: "Dein Kommentar wurde erfolgreich geändert."
+      delete_spam: "Der Kommentar wurde als Spam markiert."
+      delete_harsh: "Der Kommentar wurde permanent gelöscht."
+      delete_delete: "Der Kommentar wurde gelöscht."
+      deleted_delay: "Es kann eentuell einen Moment dauern bis der Kommentar gelöscht ist."
     # companies_controller.rb
     companies:
-      success: "Company was successfully created."
-      update: "Company was successfully updated."
-      delete: "Company was deleted."
+      success: "Firma erfolgreich angelegt."
+      update: "Firma erfolgreich geändert."
+      delete: "Firma wurde gelöscht."
     # company_members_controller.rb
     company_members:
-      no_valid: "No valid emails given."
-      success: "You have successfully invited {{emails}} to this site."
-      delete: "{{email}} was removed from this company."
+      no_valid: "Keine gültige Email-Adresse angegeben."
+      success: "Du hast {{emails}} zu dieser Seite erfolgreich eingeladen."
+      delete: "{{email}} wurde aus dieser Firma entfernt."
     # dashboard_controller.rb
     dashboard:
-      bulk_success: "{{size}} discussion(s) are being updated.  You may have to wait a few moments for this to complete."
-      bulk_error: "There was an error setting up the bulk edit.  Be sure to select some discussions to modify."
-      comments_error: "No comments or action selected."
+      bulk_success: "{{size}} Diskussion(en) wurden geändert.  Es kann einen Moment dauern bis es abgeschlossen ist."
+      bulk_error: "Es ist ein Fehler beim Ändern aufgetreten.  Stell sicher, dass einige Diskussionen zu Änderung markiert wurden."
+      comments_error: "Keine Kommentare oder Aktionen ausgewählt."
       comments_edit:
         one:
         other:
-      current_plan: "This site is now on the {{plan}} plan."
-      billing_update: "Your billing settings have been updated."
-      billing_authorized: "Only the Site owner {{owner}} has access to modify the billing and plan information."
+      current_plan: "Diese Seite hat den {{plan}} Status."
+      billing_update: "Deine Rechungsoptionen wurden geändert."
+      billing_authorized: "Nur der Seiten-Inhaber {{owner}} hat Zugriff auf die Rechnungs- und Konteninformationen."
     # discussions_controller.rb
     discussions:
-      no_token: "Please try submitting your discussion again (you may have been logged out before submitting your comment)."
-      success: "Your discussion was created successfully."
-      moderation: "That discussion is awaiting moderation."
+      no_token: "Bitte versuch deine Diskussion erneut zu schicken (du wurdest eventuell abgemeldet, bevor du ihn schicken konntest)."
+      success: "Deine Diskussion wurde erfolgreich gespeichert."
+      moderation: "Diese Diskussion benötigt einene Moderator."
       unclaimed: "Your discussion was created successfully. You may have to wait a few moments while your comment is being moderated."
       unclaimed_moderation: "You may have to wait a few moments while your comment is being moderated."
       delete: "The discussion was deleted successfully."
