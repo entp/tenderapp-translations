@@ -25,6 +25,7 @@ en:
   deleted: 'deleted'
   spam: 'spam'
   reopen: "re-open"
+  close: "close"
   closed: "closed"
   newest: "Newest"
   oldest: "Oldest"
@@ -67,6 +68,7 @@ en:
     unverified: " (unverified)" # users_helper.rb inline identifier for unverified users
     verify_human: "Verify Human"
     attach_file: "Attach File"
+    custom_title: "Custom Title"
     subject: "Subject"
   captcha_description: "If you don't have an account yet, we need to confirm you're human and not a machine trying to post spam."
   private: "private"
@@ -130,8 +132,8 @@ en:
     message_internal_reply:  "This is an {{internal_reply}}, visible only to supporters"
     system_message: "system message"
     internal_reply: "internal reply"
-    resolved_on_date: "{{author}} {{resolved}} this discussion on {{date}}."
-    resolved_by_user: "{{author}} {{resolved}} this discussion."
+    resolved_on_date: "{{author}} {{closed}} this discussion on {{date}}."
+    resolved_by_user: "{{author}} {{closed}} this discussion."
     label_older_comments: Older Comments 
     label_newer_comments: Newer Comments
     delete:
@@ -179,7 +181,6 @@ en:
     # Reply/Comment form
     reopen_discussion: "Re-open and reply to this {{resolved}} discussion or {{start_a_new_discussion}}"
     start_a_new_discussion: "start a new discussion &rarr;"
-    reply_to_resolved_discussion: "Reply to this resolved discussion"
     reply_to_discussion: "Reply to this discussion"
     internal_reply: "Internal Reply"
     label_show_internal: "Only show this comment to our staff"
@@ -210,7 +211,7 @@ en:
     comment_help: "{{formatting_help}} or {{preview}}"
     formatting_help: "Formatting help"
     btn_comment: "Comment"
-    btn_comment_and_resolve: "Comment &amp; Resolve"
+    btn_comment_and_resolve: "Comment &amp; Close"
     ticket_selector:
       no_search_terms: "No search terms"
       search_for_a_ticket: "Search for a ticket..."
@@ -279,7 +280,7 @@ en:
       state_new_issue: "New Issue"
       state_started: "Conversation Started"
       state_involved: "The developers are involved"
-      state_resolved: "The discussion is resolved"
+      state_resolved: "The discussion is closed"
       new_issue_description: "The {{site}} support team hasn't had a chance to look at this discussion yet."
       started_description: "The {{site}} staff has started a conversation to resolve this discussion."
       involved_description: "The {{site}} developers are involved and working on the discussion"
@@ -401,7 +402,7 @@ en:
     sections:
       search_instructions: "Search by keywords (formatting, account, email) or type in a question (I have a problem with the account screen)"
       label_recent_articles: "Recent Articles"
-      title: "Knowledge Base / FAQs"
+      title: "Knowledge Base"
       # widget
       textfield: "Type here to filter articles.."
       more: "More &rarr;"
@@ -483,6 +484,7 @@ en:
       users: "Users"
       entire_article: "Search Entire Article"
       title_only: "Search Title Only"
+      include_kb: "Include KB"
       scope:
         entire_discussion: "Search Entire Discussion"
         title_only: "Search Title Only"
@@ -629,7 +631,15 @@ en:
       kb_feed_link: "Knowledge Base (authenticated)"
     legend:
       title: "Legend"
-          
+
+        
+  tickets:
+    # open / closed / etc from lighthouse
+    ticket_status_assigned: "This ticket is currently {{state}} and assigned to {{user}}"
+    ticket_status: "This ticket is currently {{state}}"
+    detach: "Unattach this ticket from this discussion"
+    delete: "delete?"        
+
   users:
     apply:
       sorry: "Sorry, that address ({{email}}) is not eligible for a user account."
@@ -801,16 +811,15 @@ en:
     # company_members_controller.rb
     company_members:
       no_valid: "No valid emails given."
-      success: "You have successfully invited {{emails}} to this site."
+      success: "{{emails}} has been invited."
       delete: "{{email}} was removed from this company."
     # dashboard_controller.rb
     dashboard:
-      bulk_success: "{{size}} discussion(s) are being updated.  You may have to wait a few moments for this to complete."
+      bulk_success: 
+        one: "1 discussion is being updated.  You may have to wait a few moments for this to complete."
+        other: "{{count}} discussions are being updated.  You may have to wait a few moments for this to complete."
       bulk_error: "There was an error setting up the bulk edit.  Be sure to select some discussions to modify."
       comments_error: "No comments or action selected."
-      comments_edit:
-        one:
-        other:
       current_plan: "This site is now on the {{plan}} plan."
       billing_update: "Your billing settings have been updated."
       billing_authorized: "Only the Site owner {{owner}} has access to modify the billing and plan information."
@@ -822,7 +831,7 @@ en:
       unclaimed: "Your discussion was created successfully. You may have to wait a few moments while your comment is being moderated."
       unclaimed_moderation: "You may have to wait a few moments while your comment is being moderated."
       delete: "The discussion was deleted successfully."
-      closed: "The discussion has been resolved."
+      closed: "The discussion has been closed."
       reopen: "The discussion has been re-opened."
       acknowledge: "The discussion has been marked as read."
       change_category: "The discussion has been scheduled to move.  It may take a few moments before the move is complete."
@@ -831,9 +840,9 @@ en:
     faqs:
       setup: "You should set up some sections before writing articles"
       no_token: "Please try submitting your FAQ update again  -- you may have faulty cookies or have been logged out in another window before submitting the form."
-      success: "Faq was successfully created."
-      update: "Faq was successfully updated."
-      delete: "Faq was successfully deleted."
+      success: "Article was successfully created."
+      update: "Article was successfully updated."
+      delete: "Article was successfully deleted."
     # filters_controller.rb
      # Support only 
     # mail_templates_controller.rb
@@ -917,10 +926,10 @@ en:
     event_description:
       discussion: "Discussion is created"
       comment: "Discussion is created or replied to"
-      publish_faq: "FAQ is first published"
-      update_faq: "Published FAQ is updated"
-      queue: "Discussion is added to a Queue"
-      user: "new User signs up"
+      publish_faq: "Knowledge base article is first published"
+      update_faq: "Published knowledge base article is updated"
+      queue: "Discussion is added to a queue"
+      user: "New user signs up"
   # mailers
   mailers:
     queue_notification: "'{{title}}' has been queued to '{{name}}'"
