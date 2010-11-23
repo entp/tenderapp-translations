@@ -554,7 +554,7 @@ en:
       import: |
         Hola,
         
-       ¡El sitio {{site}} ha cambiado su soporte a {{host}}!
+        ¡El sitio {{site}} ha cambiado su soporte a {{host}}!
         
         Le agradeceríamos que confirmara su cuenta accediendo a la URL de abajo.
         Esto nos asegurará que usted es el dueño de esta dirección de email ({{email}}).
@@ -572,7 +572,7 @@ en:
         
         Si no ha solicitado resetear su contraseña, simplemente ignore este correo y su contraseña permanecerá igual que hasta ahora
        
-       ¡Gracias!
+        ¡Gracias!
         {{host}}
       signup: |
         Hola,
@@ -701,7 +701,7 @@ en:
     result_since: "Resultados desde {{date}}"
     welcome:
       title: "¡Gracias por crear una cuenta!"
-      description: "Ahora que ya ha creado una cuenta puede, mediante los botones de abajo, hacer uso del soporte del sitio."
+      description: "Ahora que ya ha creado una cuenta puede, mediante los botones de abajo, hacer uso del soporte d ."
       cross_site_description: "El soporte de este sitio utiliza accesos automáticos. Si desea acceder a él deberá identificarse en {{custom_url}}"
       account_note: "Por favor, tenga en cuenta que esta cuenta únicamente servirá para {{current_host}}, soporte oficial del sitio."
       account_note_blank: "*No* servirá para {{current_website}}"
