@@ -1,5 +1,6 @@
 en:
   home: "Home"
+  welcome: "Welcome"
   discussion_is_private: "This discussion is private"
   # conjunctions and time
   for: "for"
@@ -19,7 +20,7 @@ en:
   # discussion states
   open: 'open'
   new:  'new'
-  assigned: 'assigned'
+  ticketed: 'ticketed'
   resolved: 'resolved'
   pending: 'pending'
   deleted: 'deleted'
@@ -35,6 +36,7 @@ en:
   move_to_trash: "move to trash"
   add_to_queue: "add to queue"
   remove_from_queue: "remove from queue"
+  cancel: "cancel"
   #----
   btn_create: "Create"
   btn_delete: "Delete"
@@ -87,7 +89,9 @@ en:
   found_a_bug: "Found a bug in Tender?"
   layouts:
     footer:
-      copyright: "Tender&trade; is an {{entp_site}} production."
+      copyright: "Tender&trade; is built by {{entp_site}}."
+      questions: "Have a question?"
+      start_discussion: "Start a discussion on our Tender &rarr;"
     footerbox:
       title_discussions: "Recent Discussions"
       title_faqs: "Recent Articles"
@@ -188,10 +192,10 @@ en:
     login_as_another_user: "Log in as another user?"
     # job
     assigned:
-      user_to_user: "{{user}} assigned {{this_discussion}} to {{assigned_user}} on ticket {{ticket_id}}"
-      user_to_ticket: "{{user}} assigned {{this_discussion}} to ticket {{ticket_id}}"
-      to_ticket: "Assigned {{this_discussion}} to ticket {{ticket_id}}"
-      to_user: "Assigned {{this_discussion}} to {{assigned_user}} on ticket {{ticket_id}}"
+      user_to_user: "{{user}} assigned {{this_discussion}} to {{assigned_user}} on ticket {{ticket_id}}."
+      user_to_ticket: "{{user}} assigned {{this_discussion}} to ticket {{ticket_id}}."
+      to_ticket: "Assigned {{this_discussion}} to ticket {{ticket_id}}."
+      to_user: "Assigned {{this_discussion}} to {{assigned_user}} on ticket {{ticket_id}}."
       this_discussion: "this discussion"
 
     # actions:
@@ -213,6 +217,7 @@ en:
     btn_comment: "Comment"
     btn_comment_and_resolve: "Comment &amp; Close"
     ticket_selector:
+      title: "Title"
       no_search_terms: "No search terms"
       search_for_a_ticket: "Search for a ticket..."
       associate_a_ticket: "Associate a Lighthouse ticket"
@@ -261,11 +266,11 @@ en:
       stick_this_queue: "Stick this queue"
       processing_message: "We're currently processing this discussion. There may be delay of about a minute."
       processing_refresh_message: "(you can try refreshing the page)"
-      resolved_by_a_faq: "This discussion was resolved! See this FAQ for more information:"
+      resolved_by_a_faq: "This discussion was resolved! See this article for more information:"
       see_more: "See more.."
       suggested_faqs: 
-        one:   "Show me the suggested FAQ for this post."
-        other: "Show me the {{count}} suggested FAQs for this post."
+        one:   "Show me the suggested article for this post."
+        other: "Show me the {{count}} suggested articles for this post."
       show_spam_comments:
         one: "Show 1 Spam Ccomment"
         other: "Show {{count}} Spam Comments"
@@ -389,12 +394,12 @@ en:
       title: "Knowledge Base"
       description: 
         one: "{{count}} article in the {{section}} section in our Knowledge Base."
-        many: "{{count}} articles in the {{section}} section in our Knowledge Base."
+        other: "{{count}} articles in the {{section}} section in our Knowledge Base."
       label_first_published: "First published"
       label_updated: "Updated"
       faq_sections: "Knowledge Base Sections"
       other_faq_sections: "Not finding what you need? Check out our other sections:"
-      faqs_feed: "FAQs"
+      faqs_feed: "Knowledge Base articles"
     search:
       title: "Search the Knowledge Base"
       no_results: "No results"
@@ -408,11 +413,11 @@ en:
       more: "More &rarr;"
     show:
       view_all_more_faqs:
-        one: "View all ({{count}} more) faqs"
-        other: "View all ({{count}} more) faqs"
+        one: "View all ({{count}} more) articles"
+        other: "View all ({{count}} more) articles"
       view_all_faqs:
         one: "View section"
-        other: "View all {{count}} faqs"
+        other: "View all {{count}} articles"
       labels:
         edit: "Edit this Article"
         last_updated: "Last Updated"
@@ -479,31 +484,34 @@ en:
       article_resolved: "This article resolved my issue"
     index:
       title: "Discussions"
-      placeholder: "Search Discussions..."
+      placeholder:
+        discussions: "Search Discussions..."
+        knowledge_base: 'Search Knowledge Base...'
+        users: 'Search users by name or email...'
       knowledge_base: "Knowledge Base"
       users: "Users"
       entire_article: "Search Entire Article"
       title_only: "Search Title Only"
       include_kb: "Include KB"
       scope:
+        label: "Scope"
         entire_discussion: "Search Entire Discussion"
         title_only: "Search Title Only"
         author_email: "Search Author Email Only"
+      section:
+        label: "Section"
+        all: "All Sections"
       access:
         public_and_private: "Public & Private"
         public_only: "Public Only"
         private_only: "Private Only"
-      knowledge_base:
-        placeholder: 'Search Knowledge Base...'
-      users:
-        placeholder: 'Search users by name or email...'
       recommended:
         title: "Recommended articles from the Knowledge Base"
         published_on: "Article published on "
       error: "Error:"
       error_msg: "There was an error processing your search request"
       no_search_found_user: "No users found"
-      no_search_found_faq: "No FAQs found"
+      no_search_found_faq: "No articles found"
       no_search_found_discussion: "No discussions found"
       results_pagination: 
         one: "Showing {{count_from}}-{{count_until}}"
@@ -515,8 +523,8 @@ en:
         one: "Showing 1 user"
         other: "Showing {{count}} users"
       results_pagination_faq:
-        one: "Showing 1 FAQ"
-        other: "Showing {{count}} FAQs"
+        one: "Showing 1 article"
+        other: "Showing {{count}} articles"
       standalone_search: "Standard Interface"
       bulkedit_search:
         title: "Bulk Edit Interface"
@@ -641,6 +649,11 @@ en:
     delete: "delete?"        
 
   users:
+    header:
+      edit_your_profile: "Edit Your Profile"
+      edit_a_profile: "Edit This User"
+      unread: "Unread"
+      all: "All"
     apply:
       sorry: "Sorry, that address ({{email}}) is not eligible for a user account."
       new_account:
@@ -659,6 +672,7 @@ en:
       unsubscribe_link: "Unsubscribe from Email Updates"
     discussions_listing:
       empty: "No discussions yet."
+      mark_read: "Mark all as read"
     signup_form:
       email_address: "Email Address"
       password: "Password"
@@ -667,11 +681,15 @@ en:
     edit:
       title: "Manage Account"
       description:
+        current_user: "Make changes to your Tender Support account."
+        general: "Make changes to a Tender Support account."
       account_form:
         title: "Basic Account Information"
         company: "Company"
         btn_save_information: "Save Information"
         openid: "OpenID (Optional)"
+        label_set: "Set OpenID"
+        label_reset: "Reset OpenID"
         btn_save_openid: "Save Open ID Information"
         email_preferences: "Email Preferences"
         notify_me: "Notify me..."
@@ -686,6 +704,8 @@ en:
         label_read_only: "Read-only API Key"
         hint_apikey: "Use for read-write access to the JSON API."
         hint_read_only: "Used in authenticated atom feeds."
+        btn_reset_key: "Reset API Key"
+        btn_read_only_key: "Reset Read-only Key"
     forgot_password:
       confirmation_title: "Check your email"
       confirmation_description: "In order to verify your identify, we've sent information on how to reset your password to {{email}}"
@@ -839,7 +859,7 @@ en:
     # faqs_controller.rb
     faqs:
       setup: "You should set up some sections before writing articles"
-      no_token: "Please try submitting your FAQ update again  -- you may have faulty cookies or have been logged out in another window before submitting the form."
+      no_token: "Please try submitting your article update again  -- you may have faulty cookies or have been logged out in another window before submitting the form."
       success: "Article was successfully created."
       update: "Article was successfully updated."
       delete: "Article was successfully deleted."
@@ -896,6 +916,7 @@ en:
       openid_cleared: "Your OpenID URL was cleared."
       mark_as_read: "All of your discussions have been marked as 'read'"
       self_remove_error: "You cannot remove yourself."
+      profile_update_successful: "User profile was updated successfully."
     # watchers_controller.rb
     # webhooks_controller.rb
   # helpers
@@ -947,6 +968,26 @@ en:
     your_profile: "Your Profile"
     signup: "Sign Up"
     changelog: "Tender Changelog"
-    new_session: "Log in / FAQs"
+    new_session: "Log in / Knowledge Base"
     notifications: "Members / Admin"  
-
+    discussions: "Discussion Area"
+  # preview formatting popup
+  preview:
+    title: "Preview Formatting"
+    description: "Tender primarily uses {{markdown_link}} for formatting your text."
+  # formatting help popup
+  formatting:
+    title: "Formatting Help"
+    bold_and_italics:
+      title: "Bold &amp; Italics"
+      description: "To use bold or italic text, you use asterisks (*)"
+      bold: "<code>*single asterisks*</code> &ndash; produces italic text: <em>single asterisks</em>"
+      italic: "<code>**double asterisks**</code> &ndash; produces bold text: <strong>double asterisks</strong>"
+    links:
+      title: "Links"
+      description: "To link to another website, use the following:"
+      example: "<code>[Example](http://example.com)</code> &ndash; produces <a href=\"http://example.com\">Example</a>"
+    code_blocks:
+      title: "Code Blocks"
+      description: "You can embed inline code blocks by wrapping the text around backticks (&grave;).  Example: &grave; var test = true;&grave;  &ndash; produces <code>var test = true;</code>.  You can also embed blocks of code by indenting your code with at least four spaces."
+  

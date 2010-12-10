@@ -1,5 +1,196 @@
-en:
+# Spanish Translation for TenderApp
+# Part of this file extracted from Rails i18n gem
+#
+#   Spanish as spoken in Mexico (es-MX) translations for Rails
+#   by Edgar J. Suárez (edgar.js@gmail.com)
+#   Fixed currency format (Can't convert string to symbol)
+#   by Ivan Torres (mexpolk@gmail.com)
+#   Added datetime / prompts for time_select helper
+#   by Daniel Roux ( daniel.roux@gmail.com)
+#   Added missing translations for Rails 2 and 3
+#   by Carlos González ( carlosdavid.gonzalez@gmail.com)
+
+es:
+  number:
+    percentage:
+      format:
+        delimiter: ","
+    currency:
+      format:
+        format: "%u%n"
+        unit: "$"
+        separator: "."
+        delimiter: ","
+        precision: 2
+        significant: false
+        strip_insignificant_zeros: false
+    format:
+      delimiter: ","
+      precision: 2
+      significant: false
+      strip_insignificant_zeros: false
+      separator: "."
+    human:
+      format:
+        delimiter: ","
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one:   "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""
+          thousand: "Mil"
+          million: "Millón"
+          billion: "Mil millones"
+          trillion: "Trillón"
+          quadrillion: "Cuatrillón"
+    precision:
+      format:
+        delimiter: ","
+
+  date:
+    order: [:day, :month, :year]
+    abbr_day_names: [Dom, Lun, Mar, Mie, Jue, Vie, Sab]
+    abbr_month_names: [~, Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic]
+    day_names: [Domingo, Lunes, Martes, Miércoles, Jueves, Viernes, Sábado]
+    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+    formats:
+      short: "%d de %b"
+      default: "%d/%m/%Y"
+      long: "%A, %d de %B de %Y"
+  time:
+    formats:
+      short: "%d de %b a las %H:%M hrs"
+      default: "%a, %d de %b de %Y a las %H:%M:%S %Z"
+      long: "%A, %d de %B de %Y a las %I:%M %p"
+    am: "am"
+    pm: "pm"
+
+  support:
+    array:
+      sentence_connector: " y "
+      skip_last_comma: true
+      words_connector: ", "
+      two_words_connector: " y "
+      last_word_connector: " y "
+
+    select:
+      prompt: "Por favor selecciona"
+
+  datetime:
+    distance_in_words:
+      half_a_minute: "medio minuto"
+      less_than_x_seconds:
+        one: "menos de 1 segundo"
+        other: "menos de %{count} segundos"
+      x_seconds:
+        one: "1 segundo"
+        other: "%{count} segundos"
+      less_than_x_minutes:
+        one: "menos de 1 minuto"
+        other: "menos de %{count} minutos"
+      x_minutes:
+        one: "1 minuto"
+        other: "%{count} minutos"
+      about_x_hours:
+        one: "cerca de 1 hora"
+        other: "cerca de %{count} horas"
+      x_days:
+        one: "1 día"
+        other: "%{count} días"
+      about_x_months:
+        one: "cerca de 1 mes"
+        other: "cerca de %{count} meses"
+      x_months:
+        one: "1 mes"
+        other: "%{count} meses"
+      about_x_years:
+        other: "cerca de %{count} años"
+        one: "cerca de 1 año"
+      over_x_years:
+        one: "más de 1 año"
+        other: "más de %{count} años"
+      almost_x_years:
+        one:   "casi 1 año"
+        other: "casi %{count} años"
+    prompts:
+      year: 'Año'
+      month: 'Mes'
+      day: 'Día'
+      hour: 'Hora'
+      minute: 'Minuto'
+      second: 'Segundos'
+
+  helpers:
+    select:
+      prompt: "Por favor selecciona"
+
+    submit:
+      create: 'Crear %{model}'
+      update: 'Actualizar %{model}'
+      submit: 'Guardar %{model}'
+
+  errors:
+      format: "%{attribute} %{message}"
+
+      messages: &errors_messages
+        inclusion: "no está incluído en la lista"
+        exclusion: "está reservado"
+        invalid: "es inválido"
+        confirmation: "no coincide con la confirmación"
+        blank: "no puede estar en blanco"
+        empty: "no puede estar vacío"
+        not_a_number: "no es un número"
+        not_an_integer: "debe ser un entero"
+        less_than: "debe ser menor que %{count}"
+        less_than_or_equal_to: "debe ser menor o igual que %{count}"
+        greater_than: "debe ser mayor que %{count}"
+        greater_than_or_equal_to: "debe ser mayor o igual que %{count}"
+        too_short:
+          one: "es demasiado corto (mínimo 1 caracter)"
+          other: "es demasiado corto (mínimo %{count} caracteres)"
+        too_long:
+          one: "es demasiado largo (máximo 1 caracter)"
+          other: "es demasiado largo (máximo %{count} caracteres)"
+        equal_to: "debe ser igual a %{count}"
+        wrong_length:
+          one: "longitud errónea (debe ser de 1 caracter)"
+          other: "longitud errónea (debe ser de %{count} caracteres)"
+        accepted: "debe ser aceptado"
+        even: "debe ser un número par"
+        odd: "debe ser un número non"
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one: "%{model} no pudo guardarse debido a 1 error"
+          other: "%{model} no pudo guardarse debido a %{count} errores"
+        body: "Revise que los siguientes campos sean válidos:"
+
+      messages:
+        taken: "ya ha sido tomado"
+        record_invalid: "La validación falló: %{errors}"
+        <<: *errors_messages
+
+      full_messages:
+        format: "%{attribute}%{message}"
+  
+  # =============================================
+
   home: "Inicio"
+  welcome: 
   discussion_is_private: "Esta conversación es privada"
   # conjunctions and time
   for: "para"
@@ -19,7 +210,7 @@ en:
   # discussion states
   open: 'abierta'
   new:  'nueva'
-  assigned: 'asignada'
+  ticketed: 'asignada'
   resolved: 'resuelta'
   pending: 'pendiente'
   deleted: 'borrada'
@@ -34,6 +225,7 @@ en:
   move_to_trash: "mover a la papelera"
   add_to_queue: "añadir a la lista"
   remove_from_queue: "eliminar de la lista"
+  cancel: "cancelar"
   #----
   btn_create: "Crear"
   btn_delete: "Borrar"
@@ -86,6 +278,8 @@ en:
   layouts:
     footer:
       copyright: "Tender&trade; es un producto de {{entp_site}}."
+      questions: 
+      start_discussion: 
     footerbox:
       title_discussions: "Conversaciones recientes"
       title_faqs: "Artículos recientes"
@@ -130,8 +324,8 @@ en:
     message_internal_reply:  "Esta es una {{internal_reply}}, visible únicamente por el equipo de soporte"
     system_message: "mensaje del sistema"
     internal_reply: "respuesta interna"
-    resolved_on_date: "{{author}} {{resolved}} esta conversación el {{date}}."
-    resolved_by_user: "{{author}} {{resolved}} esta conversación."
+    resolved_on_date: "{{author}} {{closed}} esta conversación el {{date}}."
+    resolved_by_user: "{{author}} {{closed}} esta conversación."
     label_older_comments: Comentarios más antiguos 
     label_newer_comments: Comentarios más recientes
     delete:
@@ -187,10 +381,10 @@ en:
     login_as_another_user: "Identificado como otro ususario"
     # job
     assigned:
-      user_to_user: "{{user}} ha asigando {{this_discussion}} a {{assigned_user}} con el ticket {{ticket_id}}"
-      user_to_ticket: "{{user}} ha asignado {{this_discussion}} al ticket {{ticket_id}}"
-      to_ticket: "Asignada {{this_discussion}} al ticket {{ticket_id}}"
-      to_user: "Asignada {{this_discussion}} a {{assigned_user}} con el ticket {{ticket_id}}"
+      user_to_user: "{{user}} ha asigando {{this_discussion}} a {{assigned_user}} con el ticket {{ticket_id}}."
+      user_to_ticket: "{{user}} ha asignado {{this_discussion}} al ticket {{ticket_id}}."
+      to_ticket: "Asignada {{this_discussion}} al ticket {{ticket_id}}."
+      to_user: "Asignada {{this_discussion}} a {{assigned_user}} con el ticket {{ticket_id}}."
       this_discussion: "esta conversación"
 
     # actions:
@@ -212,6 +406,7 @@ en:
     btn_comment: "Comentario"
     btn_comment_and_resolve: "Comentar &amp; Resolver"
     ticket_selector:
+      title: 
       no_search_terms: "No hay términos de búsqueda"
       search_for_a_ticket: "Buscar un ticket..."
       associate_a_ticket: "Asociar un ticket Lighthouse"
@@ -388,12 +583,12 @@ en:
       title: "Base de Conocimiento"
       description: 
         one: "Se ha encontrado {{count}} asunto en la sección {{section}} de nuestra Base de Conocimiento."
-        many: "Se han encontrado {{count}} asuntos en la sección {{section}} de nuestra Base de Conocimiento."
+        other: "Se han encontrado {{count}} asuntos en la sección {{section}} de nuestra Base de Conocimiento."
       label_first_published: "Primero publicado"
       label_updated: "Actualizado"
       faq_sections: "Secciones de la Base de Conocimiento"
       other_faq_sections: "¿No encuentra lo que busca? Examine nuestras otras secciones:"
-      faqs_feed: "FAQs"
+      faqs_feed: "Base de Conocimiento"
     search:
       title: "Buscar en la Base de Conocimiento"
       no_results: "Ningún resultado"
@@ -401,7 +596,7 @@ en:
     sections:
       search_instructions: "Buscar mediante palabras clave (formato, cuenta, email) o escribiendo una pregunta (Tengo problemas con la pantalla de acceso a cuentas de usuarios)"
       label_recent_articles: "Temas Recientes"
-      title: "Base de Conocimiento / FAQs"
+      title: "Base de Conocimiento"
       # widget
       textfield: "Para filtrar asuntos, escriba aquí.."
       more: "Más &rarr;"
@@ -478,23 +673,26 @@ en:
       article_resolved: "Esta conversación soluciona mi asunto"
     index:
       title: "Conversaciones"
-      placeholder: "Buscar Conversaciones..."
+      placeholder: 
+        discussions: "Buscar Conversaciones..."
+        knowledge_base: "Buscar en la Base de Conocimiento..."
+        users: "Buscar usuarios por nombre o email..."
       knowledge_base: "Base de Conocimiento"
       users: "Usuarios"
       entire_article: "Buscar Conversación Completa"
       title_only: "Buscar sólo por Título"
       scope:
+        label:
         entire_discussion: "Buscar Conversación Completa"
         title_only: "Buscar sólo por Título"
         author_email: "Buscar sólo por Email"
+      section:
+       label: 
+       all:     
       access:
         public_and_private: "Público & Privado"
         public_only: "Sólo Publico"
         private_only: "Sólo Privado"
-      knowledge_base:
-        placeholder: 'Buscar en la Base de Conocimiento...'
-      users:
-        placeholder: 'Buscar usuarios por nombre o email...'
       recommended:
         title: "Conversaciones Recomendadas de la Base de Conocimiento"
         published_on: "Conversación publicada el "
@@ -631,6 +829,11 @@ en:
       title: "Legendas"
           
   users:
+    header:
+      edit_your_profile: 
+      edit_a_profile: 
+      unread: 
+      all: 
     apply:
       sorry: "Lo siento, no puede elegir la dirección ({{email}}) como cuenta de usuario."
       new_account:
@@ -657,11 +860,15 @@ en:
     edit:
       title: "Gestionar Cuenta"
       description:
+        current_user: 
+        general: 
       account_form:
         title: "Información Básica de Cuenta"
         company: "Empresa"
         btn_save_information: "Guardar Información"
         openid: "OpenID (Opcional)"
+        label_set: 
+        label_reset: 
         btn_save_openid: "Guardar Información Open ID"
         email_preferences: "Preferencias Email"
         notify_me: "Avíseme..."
@@ -676,10 +883,12 @@ en:
         label_read_only: "Acceso API sólo-lectura"
         hint_apikey: "Utilizar para el acceso de lectura-escritura a JSON API"
         hint_read_only: "Utilizado en atom feeds autentificados."
+        btn_reset_key: 
+        btn_read_only_key: 
     forgot_password:
       confirmation_title: "Compruebe su email"
       confirmation_description: "Para verificar su identidad, le hemos enviado información sobre cómo resetear su contraseña a {{email}}"
-      con el título: "Contraseña olvidada"
+      title: "Contraseña olvidada"
       description: "Introduzca su email y le enviaremos información sobre cómo resetear su contraseña."
     cross_site_login: "Si ya dispone de cuenta en {{site}}, debería ir a {{cross_site_login_link}}."
     cross_site_login_link: "acceso"
@@ -887,6 +1096,7 @@ en:
       openid_cleared: "Su URL OpenID ha sido borrada."
       mark_as_read: "Todas sus conversaciones han sido marcadas como 'leída'"
       self_remove_error: "No puede eliminarse a sí mismo."
+      profile_update_successful: "Perfil de usuario se ha actualizado correctamente."
     # watchers_controller.rb
     # webhooks_controller.rb
   # helpers
@@ -938,6 +1148,26 @@ en:
     your_profile: "Su perfil"
     signup: "Registro"
     changelog: "Registro de cambios"
-    new_session: "Acceso / FAQs"
-    notifications: "Miembros / Admin"  
-
+    new_session: "Acceso / Base de Conocimiento"
+    notifications: "Miembros / Admin"
+    discussions:   
+  # preview formatting popup
+  preview:
+    title:
+    description:
+  # formatting help popup
+  formatting:
+    title: 
+    bold_and_italics:
+      title: 
+      description: 
+      bold: 
+      italic: 
+    links:
+      title: 
+      description: 
+      example: 
+    code_blocks:
+      title: 
+      description: 
+  
