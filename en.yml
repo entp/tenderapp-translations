@@ -501,6 +501,8 @@ en:
       section:
         label: "Section"
         all: "All Sections"
+      categories: 
+        all: "All Categories"
       access:
         public_and_private: "Public & Private"
         public_only: "Public Only"
@@ -855,6 +857,7 @@ en:
       reopen: "The discussion has been re-opened."
       acknowledge: "The discussion has been marked as read."
       change_category: "The discussion has been scheduled to move.  It may take a few moments before the move is complete."
+      failed_change_category: "Failed to change the category."
     # extras_controller.rb
     # faqs_controller.rb
     faqs:
