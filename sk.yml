@@ -1,0 +1,994 @@
+sk:
+  home: "Domovská stránka"
+  welcome: "Vitajte"
+  discussion_is_private: "Táto diskusia je privátna."
+  # conjunctions and time
+  for: "pre"
+  or: "alebo"
+  by: "od"
+  all: "všetkých"
+  minutes: "minút"
+  minute: "minúta"
+  hours: "hodín"
+  hour: "hodina"
+  days: "dní"
+  day: "deň"
+  #----  
+  goto_profile: "Prejsť na profil"
+  find_discussions: "Hľadať diskusiu"
+  #----
+  # discussion states
+  open: 'otvorená'
+  new:  'nová'
+  ticketed: 'ohlásená'
+  resolved: 'vyriešená'
+  pending: 'nevyriešená'
+  deleted: 'zmazaná'
+  spam: 'spam'
+  reopen: "znovu otvorená"
+  close: "zatvoriť"
+  closed: "zatvorená"
+  newest: "Najnovšie"
+  oldest: "Najstaršie"
+  watchers: "Sledovatelia"
+  queued_date: "Dátum pridania"
+  mark_as_spam: "označiť ako spam"
+  move_to_trash: "presunúť do koša"
+  add_to_queue: "pridať do fronty"
+  remove_from_queue: "vymazať z fronty"
+  cancel: "zrušiť"
+  #----
+  btn_create: "Vytvoriť"
+  btn_delete: "Zmazať"
+  btn_cancel: "Zrušiť"
+  btn_search: "Hľadať"
+  btn_submit: "Odoslať"
+  #----
+  discussion: "Diskusia"
+  #----
+    
+  labels:
+    name: "Meno"
+    email: "E-mail"
+    email_address: "E-mailová adresa"
+    password: "Heslo"
+    password_confirm: "Heslo (Znovu)"
+    category: "Kategória"
+    admin_functions: "Administrátorské funkcie"
+    mark_as_ham: "Označiť ako ham"
+    restore: "Obnoviť"
+    remove: "Odstrániť"
+    edit: "Upraviť"
+    split: "Rozdeliť"
+    section: "Časť"
+    support_staff: "Tím podpory"
+    replies: "Odpovede"
+    latest_post: "Posledný príspevok"
+    title: "Nadpis"
+    state: "Stav"
+    replies: "Odpovede"
+    unverified: " (neoverený)" # users_helper.rb inline identifier for unverified users
+    verify_human: "SPAM ochrana"
+    attach_file: "Pripojiť súbor"
+    custom_title: "Vlastný nadpis"
+    subject: "Predmet"
+  captcha_description: "Pokiaľ nemáte vytvorené konto, toto je spôsob overenia že nie robot pokúšajúci sa uverejniť SPAM."
+  private: "neverejné"
+  public: "verejné"
+  
+  private_category_description: "Táto kategória nie je verejná; všetky diskusie v tejto kategórii nebudú verejné"
+  private_discussion_description: "Táto diskusia nie je verejná, prosím nezverejňujte ju"
+  add_watchers: "Pridať sledovateľov do tejto diskusie"
+  private_discussion: "Neverejná diskusia"
+  start_a_discussion: "Vytvoriť novú diskusiu"
+  start_a_discussion_in: "Vytvoriť diskusiu v {{category}}"
+  # Last update: 15 Jul 2010 by <user>
+  by: 'od'
+  # via email
+  via: "cez {{source}}"
+  found_a_bug: "Found a bug in Tender?"
+  layouts:
+    footer:
+      copyright: "Tender&trade; is built by {{entp_site}}."
+      questions: "Have a question?"
+      start_discussion: "Start a discussion on our Tender &rarr;"
+    footerbox:
+      title_discussions: "Posledné diskusie"
+      title_faqs: "Posledné články"
+      empty_discussions: "Zatiaľ žiadne diskusie."
+    superheader:
+      logged_in_as: "Prihlásený ako {{user}}"
+      logged_in_as_from: "Prihlásený ako {{user}} cez {{site}}"
+      logout: "Odhlásiť"
+      login: "{{btn_log_in}} do {{site}}"
+      btn_log_in: "Prihlásiť"
+      login_or_create_profile: "{{btn_log_in}} alebo {{create_profile}}"
+      create_profile: "Vytvoriť konto"
+      support_home: "Domovská stránka podpory"
+      public_discussion: "Verejná diskusia"
+      admin: "Administrátor"
+      go_to_sso_site: "Ísť na {{site}}"
+    application_private:
+      description: "Stránka je momentálne v privátnom móde. Musíte sa prihlásiť ak chcete pokračovať. Pre vytvorenie vlastného účtu je potrebná pozvánka zaslaná administrátorom tejto stránky."
+  assets:
+    title: "Asset Upload"
+    processing_asset: "Processing Asset"
+    delete_asset_permanently: "Delete this asset permanently?"
+  changelog:
+    discovery_link_title: "Zmeny v aplikácii Tender"
+    subscribe_to_feed: "Zmeny v aplikácii Tender"
+    title: "Čo je nové v Tender"
+    description: "Vždy aktuálne zmeny priamo od vývojárov aplikácie"
+    notes: "Changes to the front-end HTML (customizable portions) will be marked in red below."
+    html_change: "Zmeny v HTML kóde"
+  comments:
+    split: "Tento komentár bol oddelený od diskusie:"
+    split_this_comment: "Oddeliť tento komentár do novej diskusie v mene {{author}}"
+    was_split: "Tento komentár bol oddelený do novej diskusie"
+    was_split_private: "Tento komentár bol oddelený do novej neverejnej diskusie"
+    attached_files: "Pripojené súbory"
+    posted_by: "Pridal {{author}} dňa {{date}}"
+    recent_comments: "Posledne pridané komentáre."
+    view_the_first_page: "Zobraziť prvú stranu"
+    reopened_message: "{{author}} {{reopened}} túto diskusiu dňa {{date}}"
+    reopened: "znovu otvoril"
+    message_internal_system: "Toto je {{system_message}}, viditeľná len pre členov tímu podpory"
+    message_internal_reply:  "Toto je {{internal_reply}}, viditeľný len pre členov tímu podpory"
+    system_message: "systémová správa"
+    internal_reply: "vnútorný príspevok"
+    resolved_on_date: "{{author}} {{closed}} túto diskusiu dňa {{date}}."
+    resolved_by_user: "{{author}} {{closed}} túto diskusiu."
+    label_older_comments: Staršie komentáre
+    label_newer_comments: Novšie komentáre
+    delete:
+      confirm: "Skutočne chcete vymazať tento komentár? (autor: {{author}})"
+      btn_delete_permanently: "Vymazať natrvalo"
+      title: "Odstrániť tento komentár"
+    index:
+      recent_comments_feed: "Posledné komentáre"
+      recent_comments_feed_auth: "Posledné komentáre (overení používatelia)"
+    model:
+      cannot_update_message: "Nie je možné upraviť vyriešenú diskusiu pokiaľ nie ste členom tímu podpory alebo autorom diskusie."
+      cannot_internal_reply_message: "Nie je možné odoslať internú správu pokiaľ nie ste členom tímu podpory."
+    new:
+      comments_lock: 
+        one: "Bol pridaný 1 nový komentár odkedy píšete odpoveď:"
+        other: "Bolo pridaných {{count}} komentárov odkedy píšete odpoveď:"
+    restore:
+      title: "Upraviť komentár"
+      labels:
+        posted: "Pridal: {{author}}"
+      btn_update: "Upraviť komentár"
+    show:
+      btn_edit_comment: "Upraviť komentár"
+      labels:   
+        edit_comment: "Upraviť komentár"
+        posted: "Pridal"
+        by: " {{author}} dňa {{date}}"
+        via: "Prostredníctvom"
+        email_headers: "Hlavička E-mailu"
+        browser: "Prehliadač"
+      use_plain_text: "Použiť jednoduchý textový formát"
+  dashboard:
+    home:
+      start_a_discussion: "Vytvoriť diskusiu"
+      browse_discussions: "Prechádzať diskusie"
+      representatives_here: "ČLenovia tímu podpory sú tu, aby zodpovedali Vaše otázky"
+      your_open_issues: "Vaše otvorené hlásenia"
+      header_private: "Privátne"
+  discussions:
+    # Multipass / discussion key-value information
+    private_information: "Súkromné informácie"
+    # Search results
+    started_by: "Diskusiu vytvoril(a) {{author}} dňa {{date}}"
+    comment_on: "Komentár #{{number}} pridal(a) {{author}} dňa {{date}}"
+    # Reply/Comment form
+    reopen_discussion: "Znovu otvoriť túto diskusiu alebo vytvoriť novú"
+    start_a_new_discussion: "vytvoriť novú diskusiu &rarr;"
+    reply_to_discussion: "Pridať odpoveď do diskusie"
+    internal_reply: "Interná odpoveď"
+    label_show_internal: "Tento komentár zobraziť len členom tímu podpory"
+    logged_in_as: "Prihlásený ako {{author}}."
+    login_as_another_user: "Prihlásiť ako iný užívateľ?"
+    # job
+    assigned:
+      user_to_user: "{{user}} priradil {{this_discussion}} užívateľovi {{assigned_user}} k hláseniu {{ticket_id}}."
+      user_to_ticket: "{{user}} priradil {{this_discussion}} k hláseniu {{ticket_id}}."
+      to_ticket: "Priradil {{this_discussion}} k hláseniu {{ticket_id}}."
+      to_user: "Priradil {{this_discussion}} užívateľovi {{assigned_user}} k hláseniu {{ticket_id}}."
+      this_discussion: "túto diskusiu"
+
+    # actions:
+    new:
+      spawn_title: "Start a discussion from a comment"    
+      spawn_description: "Creating a new discussion based on the comment by {{author}} in the discussion {{discussion}}.  You should set a subject here. The new discussion will be created on behalf of the user."
+      start_title: "Vytvoriť diskusiu"
+      start_description: "Vytvorte diskusiu na stránke {{site}} aby sme Vám mohli pomôcť."
+      private_category: "Všetky diskusie budú označené ako {{private}}."
+      public_category: "Môžete vytvoriť {{private}} alebo {{public}} diskusiu podľa doho ktorým užívateľom ju chcete sprístupniť."
+    widget:
+    model:
+      resolved_message: "Problém v tejto diskusii bol vyriešený."
+      reopened_message: "Diskusia bola znovu otvorená."  
+      private_message: "Diskusia je odteraz neverejná."
+      public_message: "Diskusia je odteraz verejná."
+    comment_help: "{{formatting_help}} alebo {{preview}}"
+    formatting_help: "Pomôcky formátovania"
+    btn_comment: "Komentovať"
+    btn_comment_and_resolve: "Komentovať &amp; Uzavrieť"
+    ticket_selector:
+      title: "Nadpis"
+      no_search_terms: "Žiadne výrazy pre hľadanie"
+      search_for_a_ticket: "Hľadať hlásenie..."
+      associate_a_ticket: "Priradiť Lighthouse hlásenie"
+      create_a_new_ticket: "Vytvoriť nové hlásenie"
+      create_a_new_ticket_instructions: "Vyplnením tohoto formuláru vytvoríte nové hlásenie vo Vašej Lightouse inštalácii a pripojíte ho k tejto diskusii."
+      add_tags_to_the_ticket: "Pridať značky ku hláseniu (oddelené medzerou)"
+      btn_create_ticket: "Vytvoriť hlásenie"
+    thanks:
+      description: "Ďakujeme za vytvorenie novej diskusie. O odpvoedi na Vaše otázky budete informovaný e-mailom. Zmeny v diskusii je tiež možné sledovať na adrese {{url}}"
+      unclaimed_discussion: "Pokúšate sa vytvoriť diskusiu s e-mailovou adresou ktorá sa už nachádza v našej databáze."
+      unclaimed_link: "Musíte sa <a href='{{url}}'>prihlásiť ak chcete niekomu prideliť túto diskusiu</a>."
+    show_unclaimed:
+      title: "Táto diskusia nebola pridelená!"
+      description: "Nepridelené diskusie sú vytvorené ak neprihlásený používateľ vytvorí diskusiu."
+      read_more: "Čítať ďalej.."
+      instructions: "Túto diskusiu si môžete privlastniť vo svojom aktuálnom používateľskom profile"
+      btn_reclaim: "Znovu prideliť"
+      btn_claim: "Prideliť"
+      or: "alebo"
+      btn_cancel: "Zrušiť"
+      claim_this: "Túto diskusiu môžete prideliť používateľovi {{user}}"
+      warning: "Nebudete môcť odpovedať na túto diskusiu pokiaľ nebude pridelená k účtu."
+    show_private:
+      title: "Táto diskusia nie je prístupná alebo je vymazaná."
+      login: "Prihlásiť sa do platného užívateľského účtu:"
+    show_missing_token:
+      description: "Ak ste {{author}} tejto diskusie, zadajte svoj email pre zaslanie jedinečnej URL adresy pre túto diskusiu."
+      the_author: "autor"
+      email_address: "E-mail"
+      btn_send_email: "Odoslať E-mail"
+    show_hidden:
+      title_spam: "Táto diskusia bola označená ako SPAM"
+      title_deleted: "Táto diskusia bola zmazaná"
+      description: "Túto diskusiu môžete obnoviť ak si želáte."
+      btn_restore: "Obnoviť"
+    show:
+      home: "Domov"
+      edit: "Upraviť"
+      remove: "Odstrániť"
+      change_category: "Zmeniť kategóriu"
+      acknowledge: "Acknowledge Update"
+      add_to_queue: "Pridať do fronty"
+      add_to_queue_title: "Pridať alebo odobrať túto diskusiu z fronty"
+      remove_from_this_queue_title: "Odstrániť túto diskusiu z fronty"
+      add_to_this_queue_title: "Pridať diskusiu do tejto fronty"
+      stick_this_queue: "Prilepiť frontu"
+      processing_message: "Túto diskusiu práve spracovávame. Môže to trvať pár minút."
+      processing_refresh_message: "(môžete skúsiť znovu načítať stránku)"
+      resolved_by_a_faq: "Táto diskusia bola vyriešená! Pre viac informácií si pozrite túto diskusiu:"
+      see_more: "Čítať ďalej.."
+      suggested_faqs: 
+        one:   "Zobraziť článok k tomuto príspevku."
+        other: "Zobraziť {{count}} článkov k tomuto príspevku."
+      show_spam_comments:
+        one: "Zobraziť 1 SPAM komentár"
+        other: "Zobraziť {{count}} Spam komentárov"
+      show_deleted_comments:
+        one: "Zobraziť 1 vymazaný komentár"
+        other: "Zobraziť {{count}} vymazaných komentárov"
+      show_active_comments: "Zobraziť len aktívne komentáre"
+      comments_are_closed: "Komentáre sú momentálne pre túto diskusiu zatvorené."
+      start_a_new_discussion: "Môžete vytvoriť novú diskusiu"
+      attach_a_ticket: "Pripojiť Lighthouse hlásenie"
+    # sidebar:
+      state_new_issue: "Nový problém"
+      state_started: "Začiatok konverzácie"
+      state_involved: "Vývojarí zapojení do diskusie"
+      state_resolved: "Diskusia je uzatvorená"
+      new_issue_description: "Tím podpory pre {{site}} ešte neprezrel túto diskusiu."
+      started_description: "Tím podpory pre {{site}} začal diskutovať o riešení tohoto problému."
+      involved_description: "Tím vývojárov pre {{site}} je zapojený do riešenia tohoto problému"
+      resolved_description: "Nie je potrebný žiadny krok zo strany tímu podpory pre {{site}}."
+      private_permissions: "Neverejný prístup"
+      public_permissions: "Verejný prístup"
+      re_open_discussion: "Znovu otvoriť diskusiu"
+      resolve_discussion: "Označiť diskusiu ako vyriešenú"
+      discussion_is_private: "Táto diskusia je {{private}}. "
+      discussion_is_public: "Táto diskusia je {{public}}. Ktokoľvek ju môže prezerať alebo prispievať do nej."
+      private_to_you: "Len Vy a tím podpory pre {{site}} môže prezerať a prispievať do tejto diskusie."
+      private_to_company: "Len tím podpory pre {{site}} a členovia firmy {{company_name}} môžu prezerať a prispievať do diskusie."
+      btn_make_public: "Urobiť diskusiu verejnou"
+      btn_make_private: "Urobiť diskusiu privátnou"
+      # RSS links:
+      comments_feed_auth: "RSS pre komentáre (zabezpečené)"
+      comments_feed: "RSS pre komentáre"
+      all_discussions_feed_auth: "Všetky diskusie (zabezpečené)"
+      all_discussions_feed: "Všetky diskusie"
+      recent_discussions_auth: "Posledné diskusie (zabezpečené)"
+      recent_discussions: "Posledné diskusie"
+    send_token:
+      description: "Špeciálny kupón pre túto diskusiu bude odoslaný na: "
+      enter_your_email: "Ak ste {{author}}, vložte prosím e-mailovú adresu pre zaslanie špeciálnej URL linky pre túto diskusiu."
+      incorrect_email: "Nesprávny e-mail pre túto diskusiu."
+      email_address: "E-mail"
+      btn_send_email: "Odoslať e-mail"
+    index:
+      title: "{{category}} / Diskusie"
+      private_category: "Táto diskusia je privátna &mdash; nové diskusie sú prístupné len členom tímu podpory a autorom diskusie."
+      new_discussion: "Nové diskusie"
+      empty_discussions: "Zatiaľ žiadne diskusie."
+      # [Private]: I'm having a problem with ..
+      label_private: "Privátne"
+      # Started by [Jim] via [email]
+      started_by: "Začal {{author}} prostredníctvom {{via}}"
+      by: "od {{author}}"
+      discussions_feed_auth: "Diskusie (zabezpečené)"
+      discussions_feed: "Diskusie"
+      forwarding_address: "Preposlať e-maily na {{email}} aby boli zobrazované ako priátne v tejto kategórii."
+      # Forward your support emails [here] to have them..
+      email_here: "tu"
+    faq_selector:
+      title: "Vyberte vhodný článok podpory"
+      search_articles: "Vyhľadať článok..."
+    delete:
+      title: "Odstrániť túto diskusiu"
+      confirm: "Skutočne chcete vymazať túto diskusiu?"
+      btn_delete: "Vymazať"
+      btn_spam: "Označiť ako SPAM"
+      or_cancel: "alebo {{btn_cancel}}"
+      discussion_status: "Status diskusie:"
+      discussion_state: "Táto diskusia je {{state}}."
+      permissions: "Práva"
+      discussion_is_public: "Táto diskusia je {{public}}. Ktokoľvek ju môže vidieť a prispievať do nej."
+      public: "verejná"
+    change_category:
+      title: "Zmeniť kategóriu"
+      description: "Ak zmeníte kategóriu tejto diskusie, jej stará URL adresa bude presmerovaná na aktuálnu adresu."
+      message: "Diskusia presunutá z {{old_category}} do {{new_category}}"
+      move_to_category: "Presunúť do kategórie"
+      btn_move_discussion: "Presunúť diskusiu"
+    categories:
+      title: "Verejná diskusia"
+      description: "Vitajte v sekcii pre voľne prístupné diskusie. Môžete čítať alebo prispievať do diskusíí iných autorov alebo vytvoriť novú diskusiu v kategórii podľa Vášho výberu."
+      empty_list: "Žiadne nové príspevky"
+    watcher_widget:
+      people_watching:
+        one: "osoba sleduje diskusiu"
+        other: "osôb sleduje diskusiu"
+      view_sent_emails: "Zobraziť históriu odoslaných e-mailov"
+      label_you: "Vy"
+      label_others: "Ostatní"
+      btn_unsubscribe: "Odlhásiť z odberu noviniek"
+      btn_subscribe: "Odoberať novinky"
+      btn_notify: "Upozorniť"
+      # default input text
+      enter_an_email: "Zadajte e-mail.."
+      description: "Odosielať novinky na akúkoľvek adresu."
+
+  email: 
+    # These must come from the mail client
+    forward_header: "Begin forwarded message"
+    forward_from_header: "Forwarded message from"
+    original_header: "Begin original Message"
+    end_forward_header: "End forwarded message"
+    end_original_header: "End original message"
+    from: "Od"
+    subject: "Predmet"
+    sent: "Odoslaná"
+    to: "Pre"
+    fwd: 
+      - "Fwd"
+      - "Fw"
+    # On <date> <user@email> wrote:
+    # Le <date> <user> a écrit:
+    # Am <date> <user> schrieb:
+    date_header_on: "Dňa"
+    date_header_wrote: "napísal(a)"
+    # For display
+    via_forwarded_email: "preposlaný email"
+    no_subject: "(bez predmetu)"
+    #TODO doprekladat ->
+  faqs:
+    index:
+      title: "Archív článkov"
+      description: 
+        one: "{{count}} článok v sekcii {{section}} v Archíve článkov."
+        other: "{{count}} článkov v sekcii {{section}} v Archíve článkov."
+      label_first_published: "Prvý publikovaný"
+      label_updated: "Aktualizovaný"
+      faq_sections: "Sekcie Archívu článkov"
+      other_faq_sections: "Nepodarilo sa Vám nájsť potrebnú informáciu? Vyskúšajte ďalšie sekcie:"
+      faqs_feed: "Články v archíve"
+    search:
+      title: "Hľadať v archíve článkov"
+      no_results: "Žiadne výsledky"
+      no_results_description: "Oops! Neboli nájdené žiadne články. Skúsiť hľadanie znovu?"
+    sections:
+      search_instructions: "Vyhľada podľa kľúčových slov (formátovanie, konto, email) alebo zadajte otázku (Mám problém s prihlásením)"
+      label_recent_articles: "Posledné články"
+      title: "Archív článkov"
+      # widget
+      textfield: "Pre filtrovanie článkov začnite písať sem.."
+      more: "Viac &rarr;"
+    show:
+      view_all_more_faqs:
+        one: "Zobraziť celkom ({{count}}) článok"
+        other: "Zobraziť celkom ({{count}}) článkov"
+      view_all_faqs:
+        one: "Zobraziť sekciu"
+        other: "Zobraziť {{count}} článkov"
+      labels:
+        edit: "Upraviť tento článok"
+        last_updated: "Posledný aktualizovaný"
+  heartbeat_mailer:
+    questions: "Otázky?"
+  invitation_mailer:
+    notification:
+      invitation_header: "Boli ste pozvaný do tímu podpory {{site}}"
+      invitation_header_user: "Boli ste pozvaný do tímu podpory {{site}} od {{inviter}}."
+      with_company: "Budete pridaný do tímu {{name}} čím získate právo prezerať ktorúkoľvek privátnu diskusiu vytvorenú užívateľmi iných skupín."
+      confirm_link: "Pozvánku môžete potvrdiť kliknutím na nasledujúci link:"
+      signup_information: "Bude Vám pridelené právo vytvoriť nové používateľské konto pre {{site}}, alebo vybrať už existujúce konto pre túto pozvánku."
+  members:
+    invite:
+      page_title: "Dostali ste pozvánku do tímu podpory {{site}}."
+      description_invited: "Užívateľ {{user}} Vám zaslal pozvánku do tímu podpory {{site}}"  
+      description_supporter: "Dostali ste pozvánku do tímu podpory {{site}}"
+      logged_in: "Už som prihlásený"
+      login_form:
+        link: "Už mám heslo pre túto doménu alebo používam OpenID."
+        description: "Prihlásiť sa do svojho používateľského účtu pre akceptovanie pozvánky"
+      createaccount_form:
+        link:"Chcem vytvoriť nové používateľské konto"
+        description: "Registrovať nové používateľské konto a akceptovať pozvánku"
+      accept: "Akceptovať pozvánku"
+      existing_account: "Prihlásiť sa do existujúceho účtu Tender"
+      create_new: "Vytvoriť nové konto"
+      change_option:
+        link: "Vybrať inú možnosť &rarr;"
+        description: "Zmenil som názor"
+      welcome: "Vitajte v tíme podpory {{site}}."
+  notification:
+    confirm_unsubscribe:
+      description: "Skutočne chcete odhlásiť {{email}} z odberu noviniek na {{site}}?"
+      btn_confirm: "Áno, odhlásiť z odberu VŠETKÝCH správ"
+    unsubscribe_completed:
+      description: "Boli ste úspečne odhlásený z odberu správ na {{site}}."
+      confirmation_email: "E-mail pre potvrdenie vytvorenia účtu bude odoslaný na adresu {{email}}"
+    unsubscribe_failed:
+      title: "Ospravedlňujeme sa, ale použitý odkaz je už neplatný."
+      hint: "Tu si môžete zmeniť nastavenia notifikácie e-mailom:"
+      link: "upraviť profil &rarr;"
+  notifications:
+    title: "Notifikácie e-mailom"
+    description: "Títo používatelia budú informovaní o všetkých nových diskusiách v tejto kategórii."
+    label_user: "Používateľ"
+    label_profile: "Profil"
+    label_state: "Status"
+    user_state_user: "používateľ"
+    user_state_disabled: "blokovaný"
+    user_state_support: "tím podpory"
+    user_state_spammer: "spamer"
+    btn_remove_all_subscriptions: "Odstrániť *Všetky* odbery"
+    btn_remove_selected_subscriptions: "Odstrániť označené odbery" #TODO
+    note: "There are no users subscribed to this category."
+    select_category: "Select a category to modify which users receive email updates of activity:" 
+    confirm_msg: "Are you sure you want to remove subscription settings? THIS CANNOT BE UNDONE"
+  search:
+    autosuggest:
+      title: "Pomohol Vám niektorý článok z archívu vyriešiť Váš problém?"
+      was_resolved: "Áno! Môj problém bol vyriešený."
+      not_resolved: "Nie, pokračovať na diskusiu &rarr;"
+      continue_reading: "Čítať ďalej&hellip;"
+      article_resolved: "Tento článok vyriešil môj problém"
+    index:
+      title: "Diskusie"
+      placeholder:
+        discussions: "Hľadať v diskusiách..."
+        knowledge_base: 'Hľadať v archíve článkov...'
+        users: 'Hľadať používateľov podľa mena alebo e-mailovej adresy...'
+      knowledge_base: "Archív článkov"
+      users: "Používatelia"
+      entire_article: "Vyhľadať v celom článku"
+      title_only: "Vyhľadávať len v nadpise"
+      include_kb: "Zahrnúť Archív článkov"
+      scope:
+        label: "Oblasť"
+        entire_discussion: "Vyhľadať v celej diskusii"
+        title_only: "Vyhľadať len v nadpise"
+        author_email: "Vyhľadať len v e-mailových adresách"
+      section:
+        label: "Sekcie"
+        all: "Všetky sekcie"
+      access:
+        public_and_private: "Privátne aj verejné"
+        public_only: "Len verejné"
+        private_only: "Len privátne"
+      recommended:
+        title: "Odporúčané články z archívu"
+        published_on: "Článok bol publikovaný dňa "
+      error: "Chyba:"
+      error_msg: "Vyskytla sa chyba pri vyhľadávaní"
+      no_search_found_user: "Žiadny používateľ nebol nájdený"
+      no_search_found_faq: "Žiadny článok nebol nájdený"
+      no_search_found_discussion: "Žiadna diskusia nebola nájdená"
+      results_pagination: 
+        one: "Nájdený {{count_from}}-{{count_until}} výsledkov"
+        other: "Nájdených {{count_from}}-{{count_until}} z {{count}} výsledkov"
+      results_pagination_discussion:
+        one: "Nájdená 1 diskusia"
+        other: "Nájdených {{count}} diskusií"
+      results_pagination_user:
+        one: "Nájdený 1 používateľ"
+        other: "Nájdených {{count}} používateľov"
+      results_pagination_faq:
+        one: "Nájdený 1 článok"
+        other: "Nájdených {{count}} článkov"
+      standalone_search: "Štandardné rozhranie"
+      bulkedit_search:
+        title: "Hromadná úprava"
+        with_selected: "Z vybraných:"
+  sessions:
+    new:
+      title: "Prihlásiť"
+      description: "Alebo môžete {{create_a_profile}}."
+      create_a_profile: "Vytvoriť profil"
+      cross_site_login: "Táto stránka podporuje cross-site prihlasovanie. Po prihlásení do používateľského účtu {{current_site}} budete automaticky prihlásený aj do aplikácie Tender."
+      unclaimed_login: "Vaša diskusia nazvaná '{{discussion_title}}' bola publikovaná s e-mailovou adresou ktorá sa už v systéme nachádza. Prosím prihláste sa a diskusia bude priradená k Vášmu používateľskému účtu."
+      automatic_login: "*Upozornenie:* Boli ste automaticky prihlásený prostredníctvom {{current_site}} ako užívateľ {{curent_email}}."
+      automatic_logout: "Pre odhlásenie je potrebné sa odhlásiť z {{current_site}}."
+      whitelist_invite: "Môžete {{apply_new_account}} ak použijete e-mailovú adresu končiacu na {{whitelist_emails}}"
+      apply_new_account: "zaregistrovať nového používateľa"
+      label_email: "E-mail"
+      label_password: "Heslo"
+      label_remember: "Pamataj si ma"
+      label_openid: "OpenID"
+      btn_login: "Prihlásenie"
+      forgot: "Zabudli ste heslo?"
+      what_do_i_get: "Čo získam vytvorením konta?"
+      signup_description: "Registráciou získate prístup k nastaveniam notifikácie jednotlivých diskusií."
+    show:
+      logged_from: "Prihlásený cez {{sessions}}. [vymazať všetky]"
+      last_logged: "Poslené prihlásenie z adresy *{{session.ip}}* dňa"
+  site:
+    mail:
+      activation: |
+        Dobrý deň {{user}},
+        
+        Vaše konto bolo úspešne aktivované.
+        
+        V prípade akýchkoľvek otázok nás kontaktujte.
+        {{url}}
+      
+      import: |
+        Dobrý deň,
+        
+        {{site}} persunul(a) podporu na server {{host}}!
+        
+        Chceme Vás preto požiadať o potvrdenie Vášho používateľského konta
+        kliknutím na odkaz uvedený nižšie. Týmto potvrdíte, že ste vlastníkom
+        e-mailovej adresy {{email}}.
+        
+          {{url}}
+        
+        S pozdravom,
+        {{host}}
+        
+      forgot_password: |
+        Pravdepodobne ste zabudli svoje heslo. Želáte si preto nulovať aktuálne heslo? Kliknite na tento odkaz:
+        
+          {{url}}
+        
+        Ak ste si neželali vynulovať Vaše aktuálne heslo, považujte tento e-mail za bezpredmetný. Vaše heslo
+        ostane nezmenené.
+        
+        S pozdravom,
+        {{host}}
+      signup: |
+        Dobrý deň,
+        
+        Ďakujeme za vytvorenie účtu na {{host}}.
+        
+        Prosíme Vás o aktiváciu Vášho nového účtu kliknutím na odkaz uvedený nižšie.
+        Týmto potvrdzujete, že ste vlastníkom emailovej adresy uvedenej pri registrácii ({{email}}).
+        
+          {{url}}
+        
+        S pozdravom,
+        {{host}}
+        
+      token: |
+        Dobrý deň,
+        
+        Žiadali ste o zaslanie špeciálnej URL adresy pre privátnu diskusiu '{{title}}'.
+        
+        Kliknutím na túto linku budete presmerovaný priamo do diskusie:
+        
+        {{url}}
+        
+        S pozdravom,
+        {{host}}
+        
+      unsubscribe: |
+        Dobrý deň {{user}},
+        
+        Vaša požiadavka na odhlásenie z odberu informácií bola úspešná.
+        Už nikdy Vám nebude doručený e-mail od {{site}}.
+        
+        Ak si to niekedy rozmyslíte, stačí len aktualizovať Vaše nastavenie notifikácií: {{url}}
+  shared:
+    attach_file_size: "Môžete pripojiť súbor s maximálnou veľkosťou 10MB"
+    comments_parsed_with_markdown: "Komentáre sú analyzované prostredníctvom {{markdown}}"
+    adminbar:
+      trial: "Skúšobná verzia"
+      invalid: "Neplatné"
+      title: "Stav konta"
+      days_left_in_trial: "Zostáva {{current_trial}} dní."
+      plan_limits: "Obmedzenia verzie "
+      support_staff: "Tím podpory"
+      storage_space: "Kapacita"
+      nav:
+        dashboard: "Ovládací panel"
+        discussions: "Diskusie"
+        knowledge_base: "Archív článkov"
+        member_management: "Správa členov"
+        site_settings: "Nastavenia stránky"
+        extras: "Extra"
+        plans_and_billing: "Verzie &amp; platby"
+        reports: "Správy"
+      kb_feed_link: "Archív článkov (zabezpečené)"
+    legend:
+      title: "Legenda"
+
+        
+  tickets:
+    # open / closed / etc from lighthouse
+    ticket_status_assigned: "Toto hlásenie je momentálne {{state}} a pridelené používateľovi {{user}}"
+    ticket_status: "Toto hlásenie je momentálne {{state}}"
+    detach: "Oddeliť toto hlásenie od tejto diskusie?"
+    delete: "vymazať?"        
+
+  users:
+    header:
+      edit_your_profile: "Upraviť profil"
+      edit_a_profile: "Upraviť používateľa"
+      unread: "Označiť ako neprečítané"
+      all: "Všetko"
+    apply:
+      sorry: "Táto adresa ({{email}}) nie je platná pre vytvorenie tohto konta."
+      new_account:
+        title: "Vytvoriť nové konto"
+        description: "Zadajte prosím svoju e-mailovú adresu. Doménu je možné vytvoriť s e-mailovou adresou končiacou na {{user_domain}}."
+        checking_email: "Kontrolujem e-mail.."
+    new_user_form:
+      title: "Vytvoriť profil"
+      description: "Tento profil bude aktívny len pre {{site}}."
+      use_openid: "Ak máte vytvorené svoje OpenID &ndash môžete ho použiť a {{log_in}}."
+      attach_openid: "Ak už máte vytvorené konto, musíte sa {{log_in}} a pripojiť svoju OpenID adresu: {{url}}."
+      log_in: "prihlásiť"
+      problem: "Nastal problém s odoslaním formulára"
+      private_site_signup: "Vaša e-mailová adresa je platná pre vytvorenie účtu. Zadajte prosím svoje heslo (minimálny počet znakov je 6)."
+    actions_menu:
+      unsubscribe_link: "Odhlásiť z odberu e-mailových správ"
+    discussions_listing:
+      empty: "Zatiaľ neboli vytvorené žiadne diskusie."
+      mark_read: "Označiť všetko ako prečítané"
+    signup_form:
+      email_address: "E-mail"
+      password: "Heslo"
+      password_confirm: "Heslo (Znovu)"
+      btn_signup: "Registrovať"
+    edit:
+      title: "Spravovať konto"
+      description:
+        current_user: "Meniť nastavenie konta."
+        general: "Meniť nastavenia konta."
+      account_form:
+        title: "Základné informácie"
+        company: "Firma"
+        btn_save_information: "Uložiť informácie"
+        openid: "OpenID (Voliteľné)"
+        label_set: "Nastaviť OpenID"
+        label_reset: "Vynulovať OpenID"
+        btn_save_openid: "Uložiť Open ID informácie"
+        email_preferences: "Nastavenia E-mailu"
+        notify_me: "Upozorniť ma..."
+        involved_with: "diskusií do ktorých som zapojený(á)"
+        starts_new_discussion: "ak niekto začne *novú* diskusiu"
+        all_discussions: "na všetky diskusie v kategórii {{category_name}}."
+        add_to_queue: "ak je diskusia pridaná do fronty {{queue_name}}."
+        warning: "*Varovanie* Odporúčame Vám označiť len prvú možnosť (zmeny v mojej diskusii). Označením ostatných možností môžete dostávať príliž veľa e-mailových správ. Odznačením všetkých možností nebuduete dostávať žiadne e-mailové správy."
+        btn_update_prefs: "Aktualizovať nastavenia"
+        api_keys: "API kľúče"
+        label_apikey: "API kľúč"
+        label_read_only: "API kľúč len pre čítanie"
+        hint_apikey: "Pri použití práv na čítanie aj zápis pre JSON API."
+        hint_read_only: "Používa sa pri zabezpečených atom kanáloch."
+        btn_reset_key: "Vynulovať API kľúč"
+        btn_read_only_key: "Vynulovať kľúč len pre čítanie"
+    forgot_password:
+      confirmation_title: "Skontrolovať e-mail"
+      confirmation_description: "Pre overenie Vašej identity bol zaslaný postup pre vynulovanie hesla na e-mailovú adresu {{email}}"
+      title: "Zabudnuté heslo"
+      description: "Zadajte svoju e-mailovú adresu a bude Vám zaslaný e-mail s informáciou pre vynulovanie hesla."
+    cross_site_login: "Ak už máte vytvorené konto pre {{site}}, mali by ste sa {{cross_site_login_link}} tam."
+    cross_site_login_link: "prihlásiť"
+    btn_sendemail: "Odoslať e-mail"
+    reset_password:
+      title: "Vynulovať heslo"
+      description: "Vitajte, {{user}}"
+      btn_reset: "Vynulovať"
+    owner: "Vlastník"
+    supporter: "Člen tímu podpory"
+    you: "(Vy)"
+    account_disabled: "KONTO JE ZABLOKOVANÉ"
+    comment_results:
+      one: "1 komentár"
+      other: "{{count}} komentárov"
+    discussion_results:
+      one: "1 diskusia"
+      other: "{{count}} diskusií"
+    result_since: "Výsledkov od {{date}}"
+    welcome:
+      title: "Ďakujeme za vytvorenie konta!"
+      description: "Teraz môžete prezerať stránky podpory kliknutím na niektoré z tlačidiel uvedených nižšie."
+      cross_site_description: "Tieto stránky používajú automatické prihlásenie. Ak sa chcete prihlásiť, urobte tak na adrese {{custom_url}}"
+      account_note: "Upozornenie: Toto konto je platné len podoporu pre server {{current_host}}."
+      account_note_blank: "Nie je platné pre {{current_website}}"
+      solo_msg: "*Toto konto je potrebné aktivovať!* Adresa pre aktivovanie konta bola odoslaná na e-mail. Aktiváciou účtu odstránite antispamovú ochranu pri pridávaní diskusií."
+      btn_start_discussion: "Vytvoriť diskusiu"
+      btn_browse: "Prezerať diskusie"
+      btn_knowledge_base: "Archív článkov"
+      open_issues: "Nevyriešené hlásenia"
+      not_logged_msg:
+        title: "Prosím, aktivujte svoje konto."
+        description: "Ďakujeme za vytvorenie konta. Pred ukončením registrácie je ešte nutné skontrolovať Vašu identitu. Kliknutím na adresu zaslanú na Váš e-mail bude Vaše konto aktívne."
+        resend_activation: "Nedostali ste e-mail? {{send_again}}"
+        send_again: "Znovu zaslať aktivačný e-mail"
+        already_confirmed: "Už ste aktivovali svoje konto?"
+      login_here: "Tu sa môžete prihlásiť"
+      create_account: "vytvoriť konto"
+          
+    sidebar:
+      privacy:
+        title: "Súkromie"
+        description: "Vaša e-mailová adresa nebude nikde zverejnená. Bude použitá len na informatívne účely."
+      custom_avatar:
+        title: "Chcete vlastný avatar?"
+        description: "Tender bude používať avatar ktorý ste nastavili pre {{user_email}} dňa "
+      notifications:
+        title: "Notifikácie"
+        description: "Ak chcete zmeniť spôsob akým Vás systém informuje, môžete tak urobiť v nastaveniach Notifikácie"
+      public_profile:
+        title: "Zobraziť verejný profil"
+        description: "{{click_here}} pre zobrazenie verejného profilu."
+        click_here: "Kliknite sem"
+      use_openid:
+        title: "Čo ak používam OpenID?"
+        description: "Ak ste použili službu OpenID pre vytvorenie konta, bude najprv nutné použiť náš {{login_form}}  pre prihlásenie a potom zadať heslo Vášho OpenID poskytovateľa."
+        login_form: "prihlasovací formulár"
+      register:
+        title: "Musím sa registrovať?"
+        description: "Nemusíte. {{start_new_discussion}} je možné aj bez registrácie. O spôsobe prehliadania diskusie bez vytvorenia hesla Vás budeme informovať e-mailom."
+        start_new_discussion: "Začať novú diskusiu" 
+      information_used:
+        title:"Kde je zobrazená táto informácia?"
+        description: "Vaša e-mailová adresa nebude nikdy prístupná pre verejnosť."
+        #"Information changed here will affect your account on every Tender Support install."
+  watchers:
+    title: "Sledovatelia: Ľudia, ktorí budú informovaní o nových príspevkoch v tejto diskusii."
+  concerns:
+    anon_user:
+      is_missing: "chýba"
+      already_exists: "je už v systéme zaregistrovaný(á).  Prosím prihláste sa."
+  flash:
+    # sessions_controller.rb
+    login:
+      success: "Boli ste úspešne prihlásený(á)."
+      welcome: "Vitajte na stránkach podpory pre {{site}}."
+      success_invitation: "Boli ste úspešne prihlásený(á)."
+      unverified: "Váš používateľský nie je overený. Overenie adresy je možné kliknutím na link uvedený v e-mailovej správe pre aktiváciu účtu. Môžete {{unverified_link}}."
+      unverified_link: "požiadať o zaslanie URL znovu"
+      unverified_reminder: "Váš používateľský profil je stále {{unverified_reminder_link}}"
+      unverified_reminder_link: "neoverený."
+      unclaimed: "Bol Vám zaslaný email obsahujúci URL pre overenie Vášho používateľského účtu. Kliknite ak si žiadate {{unclaimed_link}} znovu."
+      unclaimed_link: "zaslať URL"
+      failed: "Prihlásenie pre '{{email}}' bolo neúspešné."
+      failed_openid: "Ospravedlňujeme sa, ale používateľ s takýmto OpenID kontom už v systéme existuje ({{url}})."
+    logout:
+      success: "Boli ste úspešne odhlásený(á)."
+      # application.rb
+    not_found: "Stránka, ktorú sa pokúšate zobraziť nebola nájdená"
+    # assets_controller.rb
+    asset_delete: "Súbor {{filename}} bol vymazaný."
+    # autoresponders_controller.rb
+    autoresponders:
+      new: "Pred použitím automatických odpovedí je nutné vytvoriť kategórie."
+      success: "Automatická odpoveď bola úspešne vytvorená."
+      update: "Automatická odpoveď bola úspešne aktualizovaná."
+      delete: "Automatická odpoveď bola vymazaná"
+    # categories_controller.rb
+    categories:
+      success: "Kategória bola úspešne vytvorená."
+      update: "Kategória bola úspešne aktualizovaná."
+      delete: "Kategória bola naplánovaná pre vymazanie."
+    # comments_controller.rb
+    comments:
+      no_token: "Skúste prosim odoslať Váš komentár znovu (pravdepodobne ste boli odhlásený(á) pred odoslanim formuláru)."
+      success: "Váš komentár bol úspešne pridaný."
+      moderation: "Váš komentár bude pred zverejnením moderovaný. Môže to chvíľu trvať."
+      restore: "Váš komentár bol úspešne obnovený. Spracovanie komentáru môže niekoľko minút trvať."
+      update: "Váš komentár bol úspešne aktualizovaný."
+      delete_spam: "Komentár bol označený ako spam."
+      delete_harsh: "Komentár bol natrvalo vymazaný."
+      delete_delete: "Komentár bol vymazaný."
+      deleted_delay: "Vymazanie komentáru môže niekoľko minút trvať."
+    # companies_controller.rb
+    companies:
+      success: "Firma bola úspešne vytvorená."
+      update: "Firma bola úspešne aktualizovaná."
+      delete: "Firma bola vymazaná."
+    # company_members_controller.rb
+    company_members:
+      no_valid: "Neboli poskytnuté žiadne platné e-mailové adresy."
+      success: "{{emails}} boli zaslané pozvánky."
+      delete: "{{email}} bol odstránený."
+    # dashboard_controller.rb
+    dashboard:
+      bulk_success: 
+        one: "1 diskusia je upravovaná. Pravdepodobne bude nutné niekoľko minút počkať."
+        other: "{{count}} diskusií je upravovaných. Pravdepodobne bude nutné niekoľko minút počkať."
+      bulk_error: "Nastal problém s hromadnou úpravou. Uistite sa, že ste vybrali niektoré diskusie pre editáciu."
+      comments_error: "Žiadne komentáre ani akcie neboli označené."
+      current_plan: "Aktuálna verzia: {{plan}}."
+      billing_update: "Vaše platobné informácie boli úspešne aktualizované."
+      billing_authorized: "Len používateľ {{owner}} má prístup k platobným informáciám a je oprávnený zmeniť verziu systému Tender."
+    # discussions_controller.rb
+    discussions:
+      no_token: "Vyskúšajte prosím odoslať formulár znovu (pravdepodobne ste boli odhlásený(á) pred odoslaním formuláru)."
+      success: "Vaša diskusia bola úspešne vytvorená."
+      moderation: "Táto diskusia musí prejsť moderáciou."
+      unclaimed: "Vaša diskusia bola úspešne vytvorená. Komentár musí prejsť moderáciou čo môže chvíľu trvať."
+      unclaimed_moderation: "Komentár musí prejsť moderáciou čo môže chvíľu trvať."
+      delete: "Diskusia bola úspešne vymazaná."
+      closed: "Diskusia bola zatvorená."
+      reopen: "Diskusia bola znovu otvorená."
+      acknowledge: "Diskusia bola označená ako prečítaná."
+      change_category: "Diskusia bola naplánovaná na presun čo môže chvíľu trvať."
+    # extras_controller.rb
+    # faqs_controller.rb
+    faqs:
+      setup: "Pred napísaním článku je vhodné vytvoriť kategórie"
+      no_token: "Prosím odošlite svoj článok znovu - pravdepodobne nastal problém s cookies alebo ste boli odhlásený(á) v inom okne prehliadača pred odoslaním formuláru."
+      success: "Článok bol úspečne pridaný."
+      update: "Článok bol úspešne aktualizovaný."
+      delete: "Článok bol úspešne vymazaný."
+    # filters_controller.rb
+     # Support only 
+    # mail_templates_controller.rb
+      # Support only
+    # notification_controller.rb
+    notification:
+      review_error: "Použitý aktivačný kód je už neplatný, prihláste sa."
+    # notifications_controller.rb
+    notifications:
+      delete_user_subscriptions: "Všetky odbery v tejto kategórii boli zrušené."
+      delete_subscriptions: "Odbery pre túto kategóriu boli zrušené."
+    # queues_controller.rb
+      # Support only
+    # reporting_controller.rb
+      # Support only
+    # search_controller.rb
+    search:
+      bulk_edit: "Hromadná operácia bola odoslaná na spracovanie."
+      bulk_edit_error: "Nastala chyba pri hromadnej úprave. Uistite sa, že ste označili niektoré z diskusií pre editáciu."
+    # sections_controller.rb
+      # Support only
+    # settings_controller.rb
+      # Support only
+    # setup_controller.rb
+    # status_controller.rb
+      # No strings, admin only
+    # tickets_controller.rb
+      # No strings, admin-facing
+    # trackers_controller.rb
+    # users_controller.rb
+    users:
+      private_error: "E-mailová adresa ({{email}}) nemôže byť použitá pre vytvorenie konta." 
+      private_invite: "Konto nebolo možné vytvoriť. Pre vytvorenie konta je potrebná pozvánka."
+      private_invite_confirm: "Vítame Vás na stránkach podpory pre {{site}}."
+      private_invite_activate: "Vítame Vás na stránkach podpory pre {{site}}. Na Váš e-mail bola odoslaná správa s kódom potrebným k aktivácii. Kliknutím na URL adresu uvedenú v e-maili aktivujete svoj účet."
+      private_setup_error: "Konto nie je možné vytvoriť. Možné dôvody sú uvedené nižšie."
+      not_found: "E-mailová adresa nebola nájdená. Skúste to znovu."
+      new_activation: "Bol Vám zaslaný nový aktivačný kód. Kliknutím na URL adresu uvedenú v e-maili overíte svoju e-mailovú adresu."
+      activate_success: "Aktivácia konta je úspešná!"
+      activate_missing: "Aktivačný kód nebol nájdený.  Skúste znovu kliknúť na URL adresu uvedenú v e-mailovej správe."
+      activate_error: "Nastal problém s aktivačným kódom, ktorý ste zadali. Skúste to znovu."
+      forgot_password_success: "Správa s postupom ako vynulovať heslo bola odoslaná na e-mailovú adresu {{email}}"
+      forgot_password_error: "Nepodarilo sa nájsť konto s e-mailovou adresou {{email}}"
+      no_user: "Pre tento aktivačný kód neexistuje používateľ. Zadajte prosím nižšie svoj e-mail pre zaslanie nového kódu."
+      reset_password_sucess: "Vaše heslo bolo vynulované. Pokračujte prihlásením"
+      notifications_update_success: "Nastavena notifikácie e-mailom boli úspešne aktualizované."
+      disabled_delete: "Používateľovi {{user}} bol odobraný prístup do systému. Používateľa je možné vrátiť zaslaním pozvánky na jeho e-mailovú adresu."
+      supporter_delete: "Používateľ {{user}} bol odstránený z tímu podpory. Používateľa je možné vrátiť prostredníctvom jeho používateľského profilu."
+      mark_spammer: "{{user}} bol označený ako spammer. Zrušenie jeho príspevkom môže niekoľko minút trvať."
+      openid_update: "Vaša URL adresa pre OpenID URL bola zmenená na {{openid_url}}."
+      openid_cleared: "Vaša URL adresa pre OpenID URL bola vynulovaná."
+      mark_as_read: "Všetky Vaše diskusie boli označené ako 'prečítané'"
+      self_remove_error: "Nie je možné odstrániť vlastné konto."
+      profile_update_successful: "Používateľský profil bol úspešne aktualizovaný."
+    # watchers_controller.rb
+    # webhooks_controller.rb
+  # helpers
+  helpers:
+    # admin_helper
+    plan_match: "This is the plan partition that matches your current usage"
+    trial_ends_on: "Zostáva ešte {{trial_days}} dní do skončenia trial-verzie programu."
+    trial_expired: "Trial-verzia expirovala."
+    billing_problems: "Nastal problém s platbou."
+    no_plan: "Nezvolili ste si žiadnu z verzií"
+    payment_due: "Platba je časovo obmedzená"
+    fix_this: "Napraviť."
+    please_notify: "Oznámiť správcovi: {{owner_name}}."
+    # dashboard_helper
+    your_plan: "Vaša verzia"
+    upgrade_link: "Upgrade"
+    downgrade_link: "Downgrade"
+    # form_helper
+    required_field: "Potrebné"
+    # users_helper
+    stats_discussion_sentence:
+      one: "Vytvoril(a) 1 diskusiu; "
+      other: "Vytvoril(a) {{count}} diskusií; "
+    stats_reply_sentence:
+      one: "odpovedal(a) 1 krát"
+      other: "odpovedal(a) {{count}} krát"
+    # webhooks_helper
+    event_description:
+      discussion: "Diskusia je vytvorená"
+      comment: "Diskusia je vytvorená alebo je odpoveďou na"
+      publish_faq: "Článok bol prvý krát publikovaný"
+      update_faq: "Clánok je aktualizovaný"
+      queue: "Diskusia bola pridaná do fronty"
+      user: "Nový používateľ sa registruje"
+  # mailers
+  mailers:
+    queue_notification: "'{{title}}' bol priradený k '{{name}}'"
+    heartbeat: "Heartbeat for {{email}}"
+    invitation_notification: "Pozvánka do tímu podpory"
+    signup_notification: "Aktivácia konta"
+    import_notification: "Aktivácia konta pre {{site}}"
+    unsubscribe_notification: "Boli ste odhlásený(á) z odberu"
+    activation: "Konto bolo aktivované!"
+    password_reset: "Požiadať o vynulovanie hesla"
+    token: "Lístok pre '{{discussion}}'"
+  # page titles
+  title:
+    invite: "Pozvánka pre člena tímu podpory"
+    your_profile: "Váš profil"
+    signup: "Registrácia"
+    changelog: "Zmeny v systéme Tender"
+    new_session: "Prihlásenie / Archív článkov"
+    notifications: "Členovia / Administrátor"  
+    discussions: "Diskusie"
+  # preview formatting popup
+  preview:
+    title: "Náhľad pred odoslaním"
+    description: "Tender používa {{markdown_link}} pre formátovanie textu."
+  # formatting help popup
+  formatting:
+    title: "Pomoc s formátovaním"
+    bold_and_italics:
+      title: "Tučné písmo &amp; kurzíva"
+      description: "Pre vloženie tučného textu alebo kruzívej použíte hviezdičky (*)"
+      bold: "<code>*jedna hviezdička*</code> &ndash; výsledkom je text kurzíva: <em>jedna hviezdička</em>"
+      italic: "<code>**dvojitá hviezdička**</code> &ndash; výsledkom je tučný text: <strong>dvojitá hviezdička</strong>"
+    links:
+      title: "URL adresy"
+      description: "Pre vytvorenie odkazu na inú stránku použite:"
+      example: "<code>[Príklad](http://www.priklad.com)</code> &ndash; výsledkom je: <a href=\"http://www.priklad.com\">Príklad</a>"
+    code_blocks:
+      title: "Vloženie zdrojového kódu"
+      description: "Zdrojový kód je možné vložiť pomocou znaku &grave;.  Napríklad: &grave; var test = true;&grave;  &ndash; výsledkom je: <code>var test = true;</code>."
+  
