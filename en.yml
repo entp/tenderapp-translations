@@ -440,7 +440,7 @@ en:
         link: "I have an account on this site or OpenID"
         description: "Login to your account and accept this invitation"
       createaccount_form:
-        link:"I need to create a new account"
+        link: "I need to create a new account"
         description: "Register for a new account and accept this invitation"
       accept: "Accept this invitation"
       existing_account: "Login to an existing Tender account"
@@ -774,7 +774,7 @@ en:
         description: "Nope!  Feel free to %{start_new_discussion} anonymously.  We&rsquo;ll email you information on how to access your discussions without a password."
         start_new_discussion: "start a new discussion" 
       information_used:
-        title:"Where does this info show?"
+        title: "Where does this info show?"
         description: "Keep in mind that we will never display your email address to the public."
         #"Information changed here will affect your account on every Tender Support install."
   watchers:
