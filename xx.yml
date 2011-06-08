@@ -1,0 +1,931 @@
+xx:
+  number:
+    human:
+      storage_units: "Xx"
+  support:
+    array:
+      sentence_connector: ","
+      skip_last_comma: true
+  
+  home: "xx"
+  discussion_is_private: "xx"
+  # conjunctions and time
+  for: "xx"
+  or: "xx"
+  by: "xx"
+  all: "xx"
+  minutes: "xx"
+  minute: "xx"
+  hours: "xx"
+  hour: "xx"
+  days: "xx"
+  day: "xx"
+  #----  
+  goto_profile: "xx"
+  find_discussions: "xx"
+  #----
+  # discussion states
+  open: "xx"
+  new:  'xx'
+  assigned: 'xx'
+  resolved: 'xx'
+  pending: 'xx'
+  deleted: 'xx'
+  spam: 'xx'
+  reopen: "xx"
+  closed: "xx"
+  newest: "xx"
+  oldest: "xx"
+  watchers: "xx"
+  queued_date: "xx"
+  mark_as_spam: "xx"
+  move_to_trash: "xx"
+  add_to_queue: "xx"
+  remove_from_queue: "xx"
+  #----
+  btn_create: "xx"
+  btn_delete: "xx"
+  btn_cancel: "xx"
+  btn_search: "xx"
+  btn_submit: "xx"
+  #----
+  discussion: "xx"
+  #----
+    
+  labels:
+    name: "xx"
+    email: "xx"
+    email_address: "xx"
+    password: "xx"
+    password_confirm: "xx"
+    category: "xx"
+    admin_functions: "xx"
+    mark_as_ham: "xx"
+    restore: "xx"
+    remove: "xx"
+    edit: "xx"
+    split: "xx"
+    section: "xx"
+    support_staff: "xx"
+    replies: "xx"
+    latest_post: "xx"
+    title: "xx"
+    state: "xx"
+    replies: "xx"
+    unverified: "xx" # users_helper.rb inline identifier for unverified users
+    verify_human: "xx"
+    attach_file: "xx"
+    subject: "xx"
+  captcha_description: "xx"
+  private: "xx"
+  public: "xx"
+  
+  private_category_description: "xx"
+  private_discussion_description: "xx"
+  add_watchers: "xx"
+  private_discussion: "xx"
+  start_a_discussion: "xx"
+  start_a_discussion_in: "xx"
+  # Last update: 15 Jul 2010 by <user>
+  by: 'xx'
+  # via email
+  via: "xx"
+  found_a_bug: "xx"
+  layouts:
+    footer:
+      copyright: "xx"
+      questions: "xx"
+      start_discussion: "xx"
+    footerbox:
+      title_discussions: "xx"
+      title_faqs: "xx"
+      empty_discussions: "xx"
+    superheader:
+      logged_in_as: "xx"
+      logged_in_as_from: "xx"
+      logout: "xx"
+      login: "xx"
+      btn_log_in: "xx"
+      login_or_create_profile: "xx"
+      create_profile: "xx"
+      support_home: "xx"
+      public_discussion: "xx"
+      admin: "xx"
+      go_to_sso_site: "xx"
+    application_private:
+      description: "xx"
+  assets:
+    title: "xx"
+    processing_asset: "xx"
+    delete_asset_permanently: "xx"
+  changelog:
+    discovery_link_title: "xx"
+    subscribe_to_feed: "xx"
+    title: "xx"
+    description: "xx"
+    notes: "xx"
+    html_change: "xx"
+  comments:
+    split: "xx"
+    split_this_comment: "xx"
+    was_split: "xx"
+    was_split_private: "xx"
+    attached_files: "xx"
+    posted_by: "xx"
+    recent_comments: "xx"
+    view_the_first_page: "xx"
+    reopened_message: "xx"
+    reopened: "xx"
+    message_internal_system: "xx"
+    message_internal_reply:  "xx"
+    system_message: "xx"
+    internal_reply: "xx"
+    resolved_on_date: "xx"
+    resolved_by_user: "xx"
+    label_older_comments: Older Comments 
+    label_newer_comments: Newer Comments
+    delete:
+      confirm: "xx"
+      btn_delete_permanently: "xx"
+      title: "xx"
+    index:
+      recent_comments_feed: "xx"
+      recent_comments_feed_auth: "xx"
+    model:
+      cannot_update_message: "xx"
+      cannot_internal_reply_message: "xx"
+    new:
+      comments_lock: 
+        one: "xx"
+        other: "xx"
+    restore:
+      title: "xx"
+      labels:
+        posted: "xx"
+      btn_update: "xx"
+    show:
+      btn_edit_comment: "xx"
+      labels:   
+        edit_comment: "xx"
+        posted: "xx"
+        by: "xx"
+        via: "xx"
+        email_headers: "xx"
+        browser: "xx"
+      use_plain_text: "xx"
+  dashboard:
+    home:
+      start_a_discussion: "xx"
+      browse_discussions: "xx"
+      representatives_here: "xx"
+      your_open_issues: "xx"
+      header_private: "xx"
+  discussions:
+    # Multipass / discussion key-value information
+    private_information: "xx"
+    # Search results
+    started_by: "xx"
+    comment_on: "xx"
+    # Reply/Comment form
+    reopen_discussion: "xx"
+    start_a_new_discussion: "xx"
+    reply_to_resolved_discussion: "xx"
+    reply_to_discussion: "xx"
+    internal_reply: "xx"
+    label_show_internal: "xx"
+    logged_in_as: "xx"
+    login_as_another_user: "xx"
+    # job
+    assigned:
+      user_to_user: "xx"
+      user_to_ticket: "xx"
+      to_ticket: "xx"
+      to_user: "xx"
+      this_discussion: "xx"
+
+    # actions:
+    new:
+      spawn_title: "xx"    
+      spawn_description: "xx"
+      start_title: "xx"
+      start_description: "xx"
+      private_category: "xx"
+      public_category: "xx"
+    widget:
+    model:
+      resolved_message: "xx"
+      reopened_message: "xx"  
+      private_message: "xx"
+      public_message: "xx"
+    comment_help: "xx"
+    formatting_help: "xx"
+    btn_comment: "xx"
+    btn_comment_and_resolve: "xx"
+    ticket_selector:
+      no_search_terms: "xx"
+      search_for_a_ticket: "xx"
+      associate_a_ticket: "xx"
+      create_a_new_ticket: "xx"
+      create_a_new_ticket_instructions: "xx"
+      add_tags_to_the_ticket: "xx"
+      btn_create_ticket: "xx"
+    thanks:
+      description: "xx"
+      unclaimed_discussion: "xx"
+      unclaimed_link: "xx"
+    show_unclaimed:
+      title: "xx"
+      description: "xx"
+      read_more: "xx"
+      instructions: "xx"
+      btn_reclaim: "xx"
+      btn_claim: "xx"
+      or: "xx"
+      btn_cancel: "xx"
+      claim_this: "xx"
+      warning: "xx"
+    show_private:
+      title: "xx"
+      login: "xx"
+    show_missing_token:
+      description: "xx"
+      the_author: "xx"
+      email_address: "xx"
+      btn_send_email: "xx"
+    show_hidden:
+      title_spam: "xx"
+      title_deleted: "xx"
+      description: "xx"
+      btn_restore: "xx"
+    show:
+      home: "xx"
+      edit: "xx"
+      remove: "xx"
+      change_category: "xx"
+      acknowledge: "xx"
+      add_to_queue: "xx"
+      add_to_queue_title: "xx"
+      remove_from_this_queue_title: "xx"
+      add_to_this_queue_title: "xx"
+      stick_this_queue: "xx"
+      processing_message: "xx"
+      processing_refresh_message: "xx"
+      resolved_by_a_faq: "xx"
+      see_more: "xx"
+      suggested_faqs: 
+        one:   "xx"
+        other: "xx"
+      show_spam_comments:
+        one: "xx"
+        other: "xx"
+      show_deleted_comments:
+        one: "xx"
+        other: "xx"
+      show_active_comments: "xx"
+      comments_are_closed: "xx"
+      start_a_new_discussion: "xx"
+      attach_a_ticket: "xx"
+    # sidebar:
+      state_new_issue: "xx"
+      state_started: "xx"
+      state_involved: "xx"
+      state_resolved: "xx"
+      new_issue_description: "xx"
+      started_description: "xx"
+      involved_description: "xx"
+      resolved_description: "xx"
+      private_permissions: "xx"
+      public_permissions: "xx"
+      re_open_discussion: "xx"
+      resolve_discussion: "xx"
+      discussion_is_private: "xx"
+      discussion_is_public: "xx"
+      private_to_you: "xx"
+      private_to_company: "xx"
+      btn_make_public: "xx"
+      btn_make_private: "xx"
+      # RSS links:
+      comments_feed_auth: "xx"
+      comments_feed: "xx"
+      all_discussions_feed_auth: "xx"
+      all_discussions_feed: "xx"
+      recent_discussions_auth: "xx"
+      recent_discussions: "xx"
+    send_token:
+      description: "xx"
+      enter_your_email: "xx"
+      incorrect_email: "xx"
+      email_address: "xx"
+      btn_send_email: "xx"
+    index:
+      title: "xx"
+      private_category: "xx"
+      new_discussion: "xx"
+      empty_discussions: "xx"
+      # [Private]: I'm having a problem with ..
+      label_private: "xx"
+      # Started by [Jim] via [email]
+      started_by: "xx"
+      by: "xx"
+      discussions_feed_auth: "xx"
+      discussions_feed: "xx"
+      forwarding_address: "xx"
+      # Forward your support emails [here] to have them..
+      email_here: "xx"
+    faq_selector:
+      title: "xx"
+      search_articles: "xx"
+    delete:
+      title: "xx"
+      confirm: "xx"
+      btn_delete: "xx"
+      btn_spam: "xx"
+      or_cancel: "xx"
+      discussion_status: "xx"
+      discussion_state: "xx"
+      permissions: "xx"
+      discussion_is_public: "xx"
+      public: "xx"
+    change_category:
+      title: "xx"
+      description: "xx"
+      message: "xx"
+      move_to_category: "xx"
+      btn_move_discussion: "xx"
+    categories:
+      title: "xx"
+      description: "xx"
+      empty_list: "xx"
+    watcher_widget:
+      people_watching:
+        one: "xx"
+        other: "xx"
+      view_sent_emails: "xx"
+      label_you: "xx"
+      label_others: "xx"
+      btn_unsubscribe: "xx"
+      btn_subscribe: "xx"
+      btn_notify: "xx"
+      # default input text
+      enter_an_email: "xx"
+      description: "xx"
+
+  email: 
+    # These must come from the mail client
+    forward_header: "xx"
+    forward_from_header: "xx"
+    original_header: "xx"
+    end_forward_header: "xx"
+    end_original_header: "xx"
+    from: "xx"
+    subject: "xx"
+    sent: "xx"
+    to: "xx"
+    fwd: 
+      - "xx"
+      - "xx"
+    # On <date> <user@email> wrote:
+    # Le <date> <user> a écrit:
+    # Am <date> <user> schrieb:
+    date_header_on: "xx"
+    date_header_wrote: "xx"
+    # For display
+    via_forwarded_email: "xx"
+    no_subject: "xx"
+
+  faqs:
+    index:
+      title: "xx"
+      description: 
+        one: "xx"
+        many: "xx"
+      label_first_published: "xx"
+      label_updated: "xx"
+      faq_sections: "xx"
+      other_faq_sections: "xx"
+      faqs_feed: "xx"
+    search:
+      title: "xx"
+      no_results: "xx"
+      no_results_description: "xx"
+    sections:
+      search_instructions: "xx"
+      label_recent_articles: "xx"
+      title: "xx"
+      # widget
+      textfield: "xx"
+      more: "xx"
+    show:
+      view_all_more_faqs:
+        one: "xx"
+        other: "xx"
+      view_all_faqs:
+        one: "xx"
+        other: "xx"
+      labels:
+        edit: "xx"
+        last_updated: "xx"
+  heartbeat_mailer:
+    questions: "xx"
+  invitation_mailer:
+    notification:
+      invitation_header: "xx"
+      invitation_header_user: "xx"
+      with_company: "xx"
+      confirm_link: "xx"
+      signup_information: "xx"
+  members:
+    invite:
+      page_title: "xx"
+      description_invited: "xx"  
+      description_supporter: "xx"
+      logged_in: "xx"
+      login_form:
+        link: "xx"
+        description: "xx"
+      createaccount_form:
+        link:"xx"
+        description: "xx"
+      accept: "xx"
+      existing_account: "xx"
+      create_new: "xx"
+      change_option:
+        link: "xx"
+        description: "xx"
+      welcome: "xx"
+  notification:
+    confirm_unsubscribe:
+      description: "xx"
+      btn_confirm: "xx"
+    unsubscribe_completed:
+      description: "xx"
+      confirmation_email: "xx"
+    unsubscribe_failed:
+      title: "xx"
+      hint: "xx"
+      link: "xx"
+  notifications:
+    title: "xx"
+    description: "xx"
+    label_user: "xx"
+    label_profile: "xx"
+    label_state: "xx"
+    user_state_user: "xx"
+    user_state_disabled: "xx"
+    user_state_support: "xx"
+    user_state_spammer: "xx"
+    btn_remove_all_subscriptions: "xx"
+    btn_remove_selected_subscriptions: "xx"
+    note: "xx"
+    select_category: "xx" 
+    confirm_msg: "xx"
+  search:
+    autosuggest:
+      title: "xx"
+      was_resolved: "xx"
+      not_resolved: "xx"
+      continue_reading: "xx"
+      article_resolved: "xx"
+    index:
+      title: "xx"
+      placeholder: "xx"
+      knowledge_base: "xx"
+      users: "xx"
+      entire_article: "xx"
+      title_only: "xx"
+      scope:
+        label: "xx"
+        entire_discussion: "xx"
+        title_only: "xx"
+        author_email: "xx"
+      section:
+        label: "xx"
+        all: "xx"
+      access:
+        public_and_private: "xx"
+        public_only: "xx"
+        private_only: "xx"
+      knowledge_base:
+        placeholder: 'xx'
+      users:
+        placeholder: 'xx'
+      recommended:
+        title: "xx"
+        published_on: "xx"
+      error: "xx"
+      error_msg: "xx"
+      no_search_found_user: "xx"
+      no_search_found_faq: "xx"
+      no_search_found_discussion: "xx"
+      results_pagination: 
+        one: "xx"
+        other: "xx"
+      results_pagination_discussion:
+        one: "xx"
+        other: "xx"
+      results_pagination_user:
+        one: "xx"
+        other: "xx"
+      results_pagination_faq:
+        one: "xx"
+        other: "xx"
+      standalone_search: "xx"
+      bulkedit_search:
+        title: "xx"
+        with_selected: "xx"
+  sessions:
+    new:
+      title: "xx"
+      description: "xx"
+      create_a_profile: "xx"
+      cross_site_login: "xx"
+      unclaimed_login: "xx"
+      automatic_login: "xx"
+      automatic_logout: "xx"
+      whitelist_invite: "xx"
+      apply_new_account: "xx"
+      label_email: "xx"
+      label_password: "xx"
+      label_remember: "xx"
+      label_openid: "xx"
+      btn_login: "xx"
+      forgot: "xx"
+      what_do_i_get: "xx"
+      signup_description: "xx"
+    show:
+      logged_from: "xx"
+      last_logged: "xx"
+  site:
+    mail:
+      activation: "xx"
+      import: "xx"
+      forgot_password: "xx"
+      signup: "xx"
+      token: "xx"
+      unsubscribe: "xx"
+  shared:
+    attach_file_size: "xx"
+    comments_parsed_with_markdown: "xx"
+    adminbar:
+      trial: "xx"
+      invalid: "xx"
+      title: "xx"
+      days_left_in_trial: "xx"
+      plan_limits: "xx"
+      support_staff: "xx"
+      storage_space: "xx"
+      nav:
+        dashboard: "xx"
+        discussions: "xx"
+        knowledge_base: "xx"
+        member_management: "xx"
+        site_settings: "xx"
+        extras: "xx"
+        plans_and_billing: "xx"
+        reports: "xx"
+      kb_feed_link: "xx"
+    legend:
+      title: "xx"
+          
+  users:
+    header:
+      edit_your_profile: "xx"
+      edit_a_profile: "xx"
+      unread: "xx"
+      all: "xx"
+    apply:
+      sorry: "xx"
+      new_account:
+        title: "xx"
+        description: "xx"
+        checking_email: "xx"
+    new_user_form:
+      title: "xx"
+      description: "xx"
+      use_openid: "xx"
+      attach_openid: "xx"
+      log_in: "xx"
+      problem: "xx"
+      private_site_signup: "xx"
+    actions_menu:
+      unsubscribe_link: "xx"
+    discussions_listing:
+      empty: "xx"
+    signup_form:
+      email_address: "xx"
+      password: "xx"
+      password_confirm: "xx"
+      btn_signup: "xx"
+    edit:
+      title: "xx"
+      description:
+        current_user: "xx"
+        general: "xx"
+      account_form:
+        title: "xx"
+        company: "xx"
+        btn_save_information: "xx"
+        openid: "xx"
+        label_set: "xx"
+        label_reset: "xx"
+        btn_save_openid: "xx"
+        email_preferences: "xx"
+        notify_me: "xx"
+        involved_with: "xx"
+        starts_new_discussion: "xx"
+        all_discussions: "xx"
+        add_to_queue: "xx"
+        warning: "xx"
+        btn_update_prefs: "xx"
+        api_keys: "xx"
+        label_apikey: "xx"
+        label_read_only: "xx"
+        hint_apikey: "xx"
+        hint_read_only: "xx"
+        btn_reset_key: "xx"
+        btn_read_only_key: "xx"
+    forgot_password:
+      confirmation_title: "xx"
+      confirmation_description: "xx"
+      title: "xx"
+      description: "xx"
+    cross_site_login: "xx"
+    cross_site_login_link: "xx"
+    btn_sendemail: "xx"
+    reset_password:
+      title: "xx"
+      description: "xx"
+      btn_reset: "xx"
+    owner: "xx"
+    supporter: "xx"
+    you: "xx"
+    account_disabled: "xx"
+    comment_results:
+      one: "xx"
+      other: "xx"
+    discussion_results:
+      one: "xx"
+      other: "xx"
+    result_since: "xx"
+    welcome:
+      title: "xx"
+      description: "xx"
+      cross_site_description: "xx"
+      account_note: "xx"
+      account_note_blank: "xx"
+      solo_msg: "xx"
+      btn_start_discussion: "xx"
+      btn_browse: "xx"
+      btn_knowledge_base: "xx"
+      open_issues: "xx"
+      not_logged_msg:
+        title: "xx"
+        description: "xx"
+        resend_activation: "xx"
+        send_again: "xx"
+        already_confirmed: "xx"
+      login_here: "xx"
+      create_account: "xx"
+          
+    sidebar:
+      privacy:
+        title: "xx"
+        description: "xx"
+      custom_avatar:
+        title: "xx"
+        description: "xx"
+      notifications:
+        title: "xx"
+        description: "xx"
+      public_profile:
+        title: "xx"
+        description: "xx"
+        click_here: "xx"
+      use_openid:
+        title: "xx"
+        description: "xx"
+        login_form: "xx"
+      register:
+        title: "xx"
+        description: "xx"
+        start_new_discussion: "xx" 
+      information_used:
+        title:"xx"
+        description: "xx"
+        #"xx"
+  watchers:
+    title: "xx"
+  concerns:
+    anon_user:
+      is_missing: "xx"
+      already_exists: "xx"
+  flash:
+    # sessions_controller.rb
+    login:
+      success: "xx"
+      welcome: "xx"
+      success_invitation: "xx"
+      unverified: "xx"
+      unverified_link: "xx"
+      unverified_reminder: "xx"
+      unverified_reminder_link: "xx"
+      unclaimed: "xx"
+      unclaimed_link: "xx"
+      failed: "xx"
+      failed_openid: "xx"
+    logout:
+      success: "xx"
+      # application.rb
+    not_found: "xx"
+    # assets_controller.rb
+    asset_delete: "xx"
+    # autoresponders_controller.rb
+    autoresponders:
+      new: "xx"
+      success: "xx"
+      update: "xx"
+      delete: "xx"
+    # categories_controller.rb
+    categories:
+      success: "xx"
+      update: "xx"
+      delete: "xx"
+    # comments_controller.rb
+    comments:
+      no_token: "xx"
+      success: "xx"
+      moderation: "xx"
+      restore: "xx"
+      update: "xx"
+      delete_spam: "xx"
+      delete_harsh: "xx"
+      delete_delete: "xx"
+      deleted_delay: "xx"
+    # companies_controller.rb
+    companies:
+      success: "xx"
+      update: "xx"
+      delete: "xx"
+    # company_members_controller.rb
+    company_members:
+      no_valid: "xx"
+      success: "xx"
+      delete: "xx"
+    # dashboard_controller.rb
+    dashboard:
+      bulk_success: "xx"
+      bulk_error: "xx"
+      comments_error: "xx"
+      comments_edit:
+        one:
+        other:
+      current_plan: "xx"
+      billing_update: "xx"
+      billing_authorized: "xx"
+    # discussions_controller.rb
+    discussions:
+      no_token: "xx"
+      success: "xx"
+      moderation: "xx"
+      unclaimed: "xx"
+      unclaimed_moderation: "xx"
+      delete: "xx"
+      closed: "xx"
+      reopen: "xx"
+      acknowledge: "xx"
+      change_category: "xx"
+    # extras_controller.rb
+    # faqs_controller.rb
+    faqs:
+      setup: "xx"
+      no_token: "xx"
+      success: "xx"
+      update: "xx"
+      delete: "xx"
+    # filters_controller.rb
+     # Support only 
+    # mail_templates_controller.rb
+      # Support only
+    # notification_controller.rb
+    notification:
+      review_error: "xx"
+    # notifications_controller.rb
+    notifications:
+      delete_user_subscriptions: "xx"
+      delete_subscriptions: "xx"
+    # queues_controller.rb
+      # Support only
+    # reporting_controller.rb
+      # Support only
+    # search_controller.rb
+    search:
+      bulk_edit: "xx"
+      bulk_edit_error: "xx"
+    # sections_controller.rb
+      # Support only
+    # settings_controller.rb
+      # Support only
+    # setup_controller.rb
+    # status_controller.rb
+      # No strings, admin only
+    # tickets_controller.rb
+      # No strings, admin-facing
+    # trackers_controller.rb
+    # users_controller.rb
+    users:
+      private_error: "xx" 
+      private_invite: "xx"
+      private_invite_confirm: "xx"
+      private_invite_activate: "xx"
+      private_setup_error: "xx"
+      not_found: "xx"
+      new_activation: "xx"
+      activate_success: "xx"
+      activate_missing: "xx"
+      activate_error: "xx"
+      forgot_password_success: "xx"
+      forgot_password_error: "xx"
+      no_user: "xx"
+      reset_password_sucess: "xx"
+      notifications_update_success: "xx"
+      disabled_delete: "xx"
+      supporter_delete: "xx"
+      mark_spammer: "xx"
+      openid_update: "xx"
+      openid_cleared: "xx"
+      mark_as_read: "xx"
+      self_remove_error: "xx"
+      profile_update_successful: "xx"
+    # watchers_controller.rb
+    # webhooks_controller.rb
+  # helpers
+  helpers:
+    # admin_helper
+    plan_match: "xx"
+    trial_ends_on: "xx"
+    trial_expired: "xx"
+    billing_problems: "xx"
+    no_plan: "xx"
+    payment_due: "xx"
+    fix_this: "xx"
+    please_notify: "xx"
+    # dashboard_helper
+    your_plan: "xx"
+    upgrade_link: "xx"
+    downgrade_link: "xx"
+    # form_helper
+    required_field: "xx"
+    # users_helper
+    stats_discussion_sentence:
+      one: "xx"
+      other: "xx"
+    stats_reply_sentence:
+      one: "xx"
+      other: "xx"
+    # webhooks_helper
+    event_description:
+      discussion: "xx"
+      comment: "xx"
+      publish_faq: "xx"
+      update_faq: "xx"
+      queue: "xx"
+      user: "xx"
+  # mailers
+  mailers:
+    queue_notification: "xx"
+    heartbeat: "xx"
+    invitation_notification: "xx"
+    signup_notification: "xx"
+    import_notification: "xx"
+    unsubscribe_notification: "xx"
+    activation: "xx"
+    password_reset: "xx"
+    token: "xx"
+  # page titles
+  title:
+    invite: "xx"
+    your_profile: "xx"
+    signup: "xx"
+    changelog: "xx"
+    new_session: "xx"
+    notifications: "xx"
+    discussions: "xx"
+  # preview formatting popup
+  preview:
+    title:
+    description:
+  # formatting help popup
+  formatting:
+    title: "xx"
+    bold_and_italics:
+      title: "xx"
+      description: "xx"
+      bold: "xx"
+      italic: "xx"
+    links:
+      title: "xx"
+      description: "xx"
+      example: "xx"
+    code_blocks:
+      title: "xx"
+      description: "xx"

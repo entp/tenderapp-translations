@@ -82,15 +82,15 @@ en:
   add_watchers: "Betrachter zu dieser Anfrage hinzufügen"
   private_discussion: "private Anfrage"
   start_a_discussion: "Eine Anfrage beginnen"
-  start_a_discussion_in: "Eine Anfrage in {{category}} beginnen"
+  start_a_discussion_in: "Eine Anfrage in %{category} beginnen"
   # Last update: 15 Jul 2010 by <user>
   by: 'von'
   # via email
-  via: "via {{source}}"
+  via: "via %{source}"
   found_a_bug: "Haben Sie einen Fehler gefunden?"
   layouts:
     footer:
-      copyright: "Tender&Handel; erstellt von {{entp_site}}."
+      copyright: "Tender&Handel; erstellt von %{entp_site}."
       questions: "Haben Sie eine Frage?"
       start_discussion: "Eine Anfrage in unserem Tender &rarr; beginnen"
     footerbox:
@@ -98,17 +98,17 @@ en:
       title_faqs: "Letzte Artikel"
       empty_discussions: "Noch keine Anfrage!"
     superheader:
-      logged_in_as: "Angemeldet als {{user}}"
-      logged_in_as_from: "Angemeldet als {{user}} von {{site}}"
+      logged_in_as: "Angemeldet als %{user}"
+      logged_in_as_from: "Angemeldet als %{user} von %{site}"
       logout: "Abmelden"
-      login: "{{btn_log_in}} bei {{site}}"
+      login: "%{btn_log_in} bei %{site}"
       btn_log_in: "Anmelden"
-      login_or_create_profile: "{{btn_log_in}} oder {{create_profile}}"
+      login_or_create_profile: "%{btn_log_in} oder %{create_profile}"
       create_profile: "Ein Profil erstellen"
       support_home: "Support Home"
       public_discussion: "öffentliche Anfrage"
       admin: "Admin"
-      go_to_sso_site: "Zu {{site}} gehen"
+      go_to_sso_site: "Zu %{site} gehen"
     application_private:
       description: "Diese Seite ist zur Zeit im Privat-Modus. Um fortzufahren, müssen Sie sich anmelden. Wenn Sie noch keinen Account haben, benötigen Sie eine Einladung des Besitzers der Seite."
   assets:
@@ -124,25 +124,25 @@ en:
     html_change: "HTML Veränderung"
   comments:
     split: "Dieser Kommentar wurde aus der Anfrage abgekoppelt:"
-    split_this_comment: "Verschiebe diesen Kommentar in eine neue Anfrage im Namen von {{author}}"
+    split_this_comment: "Verschiebe diesen Kommentar in eine neue Anfrage im Namen von %{author}"
     was_split: "Dieser Kommentar wurde in eine neue Anfrage verschoben"
     was_split_private: "Dieser Kommentar wurde in eine neue private Anfrage verschoben"
     attached_files: "Dateianhänge"
-    posted_by: "Erstellt von {{author}} am {{date}}"
+    posted_by: "Erstellt von %{author} am %{date}"
     recent_comments: "Zeigt die Seite mit den neuesten Kommentaren."
     view_the_first_page: "Die erste Seite anschauen"
-    reopened_message: "{{author}} {{reopened}} diese Anfrage am {{date}}"
+    reopened_message: "%{author} %{reopened} diese Anfrage am %{date}"
     reopened: "wieder geöffnet"
-    message_internal_system: "Dies ist eine {{system_message}}, sie ist nur für Mitarbeiter des Supports sichtbar"
-    message_internal_reply:  "Dies ist eine {{internal_reply}}, sie ist nur für Mitarbeiter des Supports sichtbar"
+    message_internal_system: "Dies ist eine %{system_message}, sie ist nur für Mitarbeiter des Supports sichtbar"
+    message_internal_reply:  "Dies ist eine %{internal_reply}, sie ist nur für Mitarbeiter des Supports sichtbar"
     system_message: "Systemnachricht"
     internal_reply: "interne Antwort"
-    resolved_on_date: "{{author}} {{closed}} diese Anfrage am {{date}}."
-    resolved_by_user: "{{author}} {{closed}} diese Anfrage."
+    resolved_on_date: "%{author} %{closed} diese Anfrage am %{date}."
+    resolved_by_user: "%{author} %{closed} diese Anfrage."
     label_older_comments: ältere Kommentare 
     label_newer_comments: neuere Kommentare
     delete:
-      confirm: "Wollen Sie den Kommentar von {{author}} wirklich löschen?"
+      confirm: "Wollen Sie den Kommentar von %{author} wirklich löschen?"
       btn_delete_permanently: "endgültig löschen"
       title: "Diesen Kommentar entfernen"
     index:
@@ -154,18 +154,18 @@ en:
     new:
       comments_lock: 
         one: "1 Kommentar, seit Sie angefangen haben zu antworten:"
-        other: "{{count}} Kommentare, seit Sie angefangen haben zu antworten:"
+        other: "%{count} Kommentare, seit Sie angefangen haben zu antworten:"
     restore:
       title: "Diesen Kommentar bearbeiten"
       labels:
-        posted: "erstellt von: {{author}}"
+        posted: "erstellt von: %{author}"
       btn_update: "Kommentar bearbeiten"
     show:
       btn_edit_comment: "Kommentar bearbeiten"
       labels:   
         edit_comment: "Kommentar bearbeiten"
         posted: "hinzugefügt"
-        by: "von {{author}} am {{date}}"
+        by: "von %{author} am %{date}"
         via: "Via"
         email_headers: "Email Headers"
         browser: "Browser"
@@ -181,39 +181,39 @@ en:
     # Multipass / discussion key-value information
     private_information: "private Information"
     # Search results
-    started_by: "Anfrage erstellt von {{author}} am {{date}}"
-    comment_on: "Kommentar #{{number}} von {{author}} am {{date}}"
+    started_by: "Anfrage erstellt von %{author} am %{date}"
+    comment_on: "Kommentar #%{number} von %{author} am %{date}"
     # Reply/Comment form
-    reopen_discussion: "Diese {{resolved}} Anfrage wieder öffnen und antworten oder {{start_a_new_discussion}}"
+    reopen_discussion: "Diese %{resolved} Anfrage wieder öffnen und antworten oder %{start_a_new_discussion}"
     start_a_new_discussion: " Eine neue Anfrage &rarr; stellen"
     reply_to_discussion: "Auf diese Anfrage antworten"
     internal_reply: "Interne Antwort"
     label_show_internal: "Diesen Kommentar nur unseren Mitarbeitern zeigen"
-    logged_in_as: "Sie sind bei uns als {{author}} angemeldet."
+    logged_in_as: "Sie sind bei uns als %{author} angemeldet."
     login_as_another_user: "Mit einem anderen Benutzernamen anmelden?"
     # job
     assigned:
-      user_to_user: "{{user}} hat {{this_discussion}} an {{assigned_user}} mit dem Ticket {{ticket_id}} zugewiesen."
-      user_to_ticket: "{{user}} hat {{this_discussion}} an Ticket {{ticket_id}} zugewiesen."
-      to_ticket: "{{this_discussion}} an Ticket {{ticket_id}} zugewiesen."
-      to_user: "{{this_discussion}} an {{assigned_user}} an Ticket {{ticket_id}} zugewiesen."
+      user_to_user: "%{user} hat %{this_discussion} an %{assigned_user} mit dem Ticket %{ticket_id} zugewiesen."
+      user_to_ticket: "%{user} hat %{this_discussion} an Ticket %{ticket_id} zugewiesen."
+      to_ticket: "%{this_discussion} an Ticket %{ticket_id} zugewiesen."
+      to_user: "%{this_discussion} an %{assigned_user} an Ticket %{ticket_id} zugewiesen."
       this_discussion: "diese Anfrage"
 
     # actions:
     new:
       spawn_title: "Beginne eine Anfrage aus einem Kommentar"    
-      spawn_description: "Eine neue Anfrage in der Diskussion {{discussion}}, basierend auf dem Kommentar von {{author}}, erstellen. Sie sollten hier einen Betreff angeben. Die neue Anfrage wird im Namen des Benutzers erstellt."
+      spawn_description: "Eine neue Anfrage in der Diskussion %{discussion}, basierend auf dem Kommentar von %{author}, erstellen. Sie sollten hier einen Betreff angeben. Die neue Anfrage wird im Namen des Benutzers erstellt."
       start_title: "Eine Anfrage stellen"
-      start_description: "Stellen Sie eine Anfrage, damit die Leute von {{site}} Ihnen helfen können."
-      private_category: "Alle Anfragen werden auf {{private}} gestellt sein."
-      public_category: "Sie können Ihre Anfragen als {{private}} oder {{public}} deklarieren, je nach dem wer sie sehen soll."
+      start_description: "Stellen Sie eine Anfrage, damit die Leute von %{site} Ihnen helfen können."
+      private_category: "Alle Anfragen werden auf %{private} gestellt sein."
+      public_category: "Sie können Ihre Anfragen als %{private} oder %{public} deklarieren, je nach dem wer sie sehen soll."
     widget:
     model:
       resolved_message: "Die Anfrage ist gelöst."
       reopened_message: "Die Anfrage wurde wieder aufgenommen."  
       private_message: "Die Anfrage ist jetzt privat."
       public_message: "Die Anfrage ist jetzt öffentlich."
-    comment_help: "{{formatting_help}} oder {{preview}}"
+    comment_help: "%{formatting_help} oder %{preview}"
     formatting_help: "Hilfe zum Formatieren"
     btn_comment: "Kommentar"
     btn_comment_and_resolve: "Kommentar &amp; schließen"
@@ -227,9 +227,9 @@ en:
       add_tags_to_the_ticket: "Diesem Ticket Stichwörter hinzufügen (bitte mit Leerzeichen trennen)"
       btn_create_ticket: "Ticket erstellen"
     thanks:
-      description: "Vielen Dank für ihre Anfrage. Wir werden Ihnen Updates per Email senden. Alternativ dazu können Sie der Anfrage auch hier {{url}} folgen."
+      description: "Vielen Dank für ihre Anfrage. Wir werden Ihnen Updates per Email senden. Alternativ dazu können Sie der Anfrage auch hier %{url} folgen."
       unclaimed_discussion: "Ihre Anfrage wurde über eine Email Adresse erstellt, die bereits bei dieser Tender Installation existiert."
-      unclaimed_link: "Sie müssen <a href='{{url}}'> sich anmelden, um diese Anfrage </a> beanspruchen zu können."
+      unclaimed_link: "Sie müssen <a href='%{url}'> sich anmelden, um diese Anfrage </a> beanspruchen zu können."
     show_unclaimed:
       title: "Diese Anfrage ist unbeansprucht!"
       description: "Unbeanspruchte Anfragen werden erstellt, wenn Benutzer mit einem Account sich nicht anmelden, wenn sie eine Anfrage stellen."
@@ -239,20 +239,20 @@ en:
       btn_claim: "Beanspruchen"
       or: "oder"
       btn_cancel: "Löschen"
-      claim_this: "Sie können diese Anfrage für {{user}} beanspruchen"
+      claim_this: "Sie können diese Anfrage für %{user} beanspruchen"
       warning: "Sie können nicht auf diese Anfrage antworten, bis diese von einem Account beansprucht worden ist."
     show_private:
       title: "Diese Anfrage ist privat oder wurde gelöscht."
       login: "Melden Sie sich mit einem gültigen Profil an:"
     show_missing_token:
-      description: "Wenn Sie {{author}} sind, geben Sie bitte Ihre E-Mail-Adresse ein, um die Spezial-URL zu dieser Anfrage zu erhalten."
+      description: "Wenn Sie %{author} sind, geben Sie bitte Ihre E-Mail-Adresse ein, um die Spezial-URL zu dieser Anfrage zu erhalten."
       the_author: "Der Autor"
       email_address: "Email Adresse"
       btn_send_email: "Email senden"
     show_hidden:
       title_spam: "Diese Anfrage wurde als Spam markiert"
       title_deleted: "Diese Anfrage wurde gelöscht"
-      description: "Wenn Sie möchten, können Sie die Anfrage, die von {{author}} gestartet wurde, wiederherstellen."
+      description: "Wenn Sie möchten, können Sie die Anfrage, die von %{author} gestartet wurde, wiederherstellen."
       btn_restore: "Wiederherstellen"
     show:
       home: "Home"
@@ -271,13 +271,13 @@ en:
       see_more: "Fortsetzung.."
       suggested_faqs: 
         one:   "Die Artikelvorschläge für diesen Beitrag anzeigen."
-        other: "Die {{count}} für diesen Beitrag vorgeschlagenen Artikel anzeigen."
+        other: "Die %{count} für diesen Beitrag vorgeschlagenen Artikel anzeigen."
       show_spam_comments:
         one: "1 Spam-Kommentar anzeigen"
-        other: "{{count}} Spam-Kommentare anzeigen"
+        other: "%{count} Spam-Kommentare anzeigen"
       show_deleted_comments:
         one: "1 gelöschten Kommentar anzeigen"
-        other: "{{count}} gelöschte Kommentare anzeigen"
+        other: "%{count} gelöschte Kommentare anzeigen"
       show_active_comments: "Nur aktive Kommentare anzeigen"
       comments_are_closed: "Die Kommentare für diese Anfrage sind momentan nicht aktiviert."
       start_a_new_discussion: "Sie können eine neue starten"
@@ -287,18 +287,18 @@ en:
       state_started: "Gespräch gestartet"
       state_involved: "Die Entwickler sind beteiligt"
       state_resolved: "Diese Anfrage ist geschlossen"
-      new_issue_description: "Das Support-Team von {{site}} hatte noch keine Gelegenheit sich diese Anfrage anzuschauen."
-      started_description: "Die Mitarbeiter von {{site}} haben ein Gespräch gestartet, um diese Anfrage zu lösen."
-      involved_description: "Die Entwickler von {{site}} sind daran beteiligt diese Anfrage zu lösen."
-      resolved_description: "Keine Handlungen von {{site}} mehr oder der Anfragenstarter wird benötigt."
+      new_issue_description: "Das Support-Team von %{site} hatte noch keine Gelegenheit sich diese Anfrage anzuschauen."
+      started_description: "Die Mitarbeiter von %{site} haben ein Gespräch gestartet, um diese Anfrage zu lösen."
+      involved_description: "Die Entwickler von %{site} sind daran beteiligt diese Anfrage zu lösen."
+      resolved_description: "Keine Handlungen von %{site} mehr oder der Anfragenstarter wird benötigt."
       private_permissions: "Private Erlaubnis"
       public_permissions: "Öffentliche Erlaubnis"
       re_open_discussion: "Die Anfrage wiedereröffnen"
       resolve_discussion: "Die Anfrage lösen"
-      discussion_is_private: "Diese Anfrage ist {{private}}. "
-      discussion_is_public: "Diese Anfrage ist {{public}}. Jeder kann sie sehen und auf sie antworten."
-      private_to_you: "Nur Sie und das Support-Team von {{site}} können dies lesen und antworten."
-      private_to_company: "Nur die Support-Mitarbeiter von {{site}} und die Mitglieder von {{company_name}} können dies lesen und antworten."
+      discussion_is_private: "Diese Anfrage ist %{private}. "
+      discussion_is_public: "Diese Anfrage ist %{public}. Jeder kann sie sehen und auf sie antworten."
+      private_to_you: "Nur Sie und das Support-Team von %{site} können dies lesen und antworten."
+      private_to_company: "Nur die Support-Mitarbeiter von %{site} und die Mitglieder von %{company_name} können dies lesen und antworten."
       btn_make_public: "als öffentlich kennzeichnen"
       btn_make_private: "als privat kennzeichnen"
       # RSS links:
@@ -310,23 +310,23 @@ en:
       recent_discussions: "Neueste Anfrage"
     send_token:
       description: "Ihr Spezial-Merkmal für diese Anfrage wird gesendet an: "
-      enter_your_email: "Wenn Sie {{author}} sind, geben Sie Ihre Email-Adresse ein, um die Spezial-URL für diese Anfrage zu erhalten."
+      enter_your_email: "Wenn Sie %{author} sind, geben Sie Ihre Email-Adresse ein, um die Spezial-URL für diese Anfrage zu erhalten."
       incorrect_email: "Nicht die korrekte Email-Adresse für diese Anfrage."
       email_address: "Email Adresse"
       btn_send_email: "Email senden"
     index:
-      title: "{{category}} / Anfragebereich"
+      title: "%{category} / Anfragebereich"
       private_category: "Diese Kategorie ist privat &mdash; neue Anfragen sind nur für die Mitglieder des Support-Teams und den Urheber der Anfrage sichtbar."
       new_discussion: "Neue Anfrage"
       empty_discussions: "Noch keine Anfrage."
       # [Private]: I'm having a problem with ..
       label_private: "Privat"
       # Started by [Jim] via [email]
-      started_by: "Gestartet von {{author}} via {{via}}"
-      by: "von {{author}}"
+      started_by: "Gestartet von %{author} via %{via}"
+      by: "von %{author}"
       discussions_feed_auth: "Anfrage (authenticated)"
       discussions_feed: "Anfrage"
-      forwarding_address: "Ihre Support-Emails {{email}} weiterleiten, um sie als private Anfrage in dieser Kategorie anzuzeigen."
+      forwarding_address: "Ihre Support-Emails %{email} weiterleiten, um sie als private Anfrage in dieser Kategorie anzuzeigen."
       # Forward your support emails [here] to have them..
       email_here: "hier"
     faq_selector:
@@ -334,19 +334,19 @@ en:
       search_articles: "Nach einem Artikel suchen..."
     delete:
       title: "Diese Anfrage entfernen"
-      confirm: "Wollen Sie wirklich die Anfrage von {{author}} entfernen?"
+      confirm: "Wollen Sie wirklich die Anfrage von %{author} entfernen?"
       btn_delete: "Löschen"
       btn_spam: "Als Spam markieren"
-      or_cancel: "oder {{btn_cancel}}"
+      or_cancel: "oder %{btn_cancel}"
       discussion_status: "Anfragesstatus:"
-      discussion_state: "Diese Anfrage ist {{state}}."
+      discussion_state: "Diese Anfrage ist %{state}."
       permissions: "Berechtigungen"
-      discussion_is_public: "Diese Anfrage ist {{public}}. Jeder kann sie sehen und auf sie antworten."
+      discussion_is_public: "Diese Anfrage ist %{public}. Jeder kann sie sehen und auf sie antworten."
       public: "öffentlich"
     change_category:
       title: "Kategorie ändern"
       description: "Wenn Sie die Anfrageskategorie verändern, wird die ursprüngliche URL zu der neuen Kategorie weitergeleitet."
-      message: "Diese Anfrage ist von {{old_category}} nach {{new_category}} verschoben worden"
+      message: "Diese Anfrage ist von %{old_category} nach %{new_category} verschoben worden"
       move_to_category: "Zur Kategorie"
       btn_move_discussion: "Anfrage verschieben"
     categories:
@@ -394,8 +394,8 @@ en:
     index:
       title: "Datenbank"
       description: 
-        one: "{{count}} Artikel im  Bereich {{section}}in unserer Datenbank"
-        other: "{{count}} Artikel im  Bereich {{section}}in unserer Datenbank"
+        one: "%{count} Artikel im  Bereich %{section}in unserer Datenbank"
+        other: "%{count} Artikel im  Bereich %{section}in unserer Datenbank"
       label_first_published: "veröffentlicht am"
       label_updated: "Aktualisiert"
       faq_sections: "Datenbank-Bereiche"
@@ -414,11 +414,11 @@ en:
       more: "Mehr &rarr;"
     show:
       view_all_more_faqs:
-        one: "Alle ({{count}} more) Artikel ansehen"
-        other: "Alle ({{count}} more) Artikel ansehen"
+        one: "Alle (%{count} more) Artikel ansehen"
+        other: "Alle (%{count} more) Artikel ansehen"
       view_all_faqs:
         one: "Gehe zum Bereich"
-        other: "Alle {{count}} Artikel ansehen"
+        other: "Alle %{count} Artikel ansehen"
       labels:
         edit: "Diesen Artikel bearbeiten"
         last_updated: "zuletzt verändert"
@@ -426,16 +426,16 @@ en:
     questions: "Fragen?"
   invitation_mailer:
     notification:
-      invitation_header: "Sie wurden zum Support von {{site}} eingeladen"
-      invitation_header_user: "Sie wurden zum Support von {{site}} von {{inviter}} eingeladen."
-      with_company: "Sie werden der Firma {{name}} hinzugefügt, damit Sie alle privaten Anfrage der anderen Firmenmitglieder sehen können."
+      invitation_header: "Sie wurden zum Support von %{site} eingeladen"
+      invitation_header_user: "Sie wurden zum Support von %{site} von %{inviter} eingeladen."
+      with_company: "Sie werden der Firma %{name} hinzugefügt, damit Sie alle privaten Anfrage der anderen Firmenmitglieder sehen können."
       confirm_link: "Sie können die Einladung annehmen, indem Sie den untenstehenden Link benutzen:"
-      signup_information: "Sie haben die Möglichkeit ein neues {{site}} Support-Team Profil zu erstellen oder ein bereits existierendes für diese Anfrage zu nutzen."
+      signup_information: "Sie haben die Möglichkeit ein neues %{site} Support-Team Profil zu erstellen oder ein bereits existierendes für diese Anfrage zu nutzen."
   members:
     invite:
-      page_title: "Sie wurden zu der {{site}} Support-Seite eingeladen."
-      description_invited: "Sie wurden von {{user}} eingeladen ein Mitglied der Supprt-Seite von {{site}} zu werden."  
-      description_supporter: "Sie wurden eingeladen ein Mitglied des Support-Teams von {{site}} zu werden."
+      page_title: "Sie wurden zu der %{site} Support-Seite eingeladen."
+      description_invited: "Sie wurden von %{user} eingeladen ein Mitglied der Supprt-Seite von %{site} zu werden."  
+      description_supporter: "Sie wurden eingeladen ein Mitglied des Support-Teams von %{site} zu werden."
       logged_in: "Ich bin bereits angemeldet"
       login_form:
         link: "Ich habe einen Account oder OpenID auf dieser Seite."
@@ -449,14 +449,14 @@ en:
       change_option:
         link: "Eine andere Option wählen &rarr;XXX"
         description: "Ich habe es mir anders überlegt"
-      welcome: "Willkommen zu der {{site}} Support-Seite."
+      welcome: "Willkommen zu der %{site} Support-Seite."
   notification:
     confirm_unsubscribe:
-      description: "Wollen Sie wirklich Ihr Abonnement für die {{email}} von allen {{site}} kündigen?"
+      description: "Wollen Sie wirklich Ihr Abonnement für die %{email} von allen %{site} kündigen?"
       btn_confirm: "Ja, Abonnement für ALLE Emails löschen"
     unsubscribe_completed:
-      description: "Ihr Abonnement für alle Emails von {{site}} wurde gelöscht."
-      confirmation_email: "Ein Bestätigungsmail wird an {{email}} geschickt."
+      description: "Ihr Abonnement für alle Emails von %{site} wurde gelöscht."
+      confirmation_email: "Ein Bestätigungsmail wird an %{email} geschickt."
     unsubscribe_failed:
       title: "Entschuldigen Sie bitte, der Abonnement kündigen-Link, auf den Sie geklickt haben, ist veraltet."
       hint: "Sie können immernoch Ihre Benachrichtigungseinstellungen verändern:"
@@ -517,17 +517,17 @@ en:
       no_search_found_faq: "Keine Artikel gefunden"
       no_search_found_discussion: "Keine Anfrage gefunden"
       results_pagination: 
-        one: "{{count_from}}-{{count_until}} anzeigen"
-        other: "Ergebnisse {{count_from}}-{{count_until}} von {{count}} anzeigen"
+        one: "%{count_from}-%{count_until} anzeigen"
+        other: "Ergebnisse %{count_from}-%{count_until} von %{count} anzeigen"
       results_pagination_discussion:
         one: "1 Anfrage anzeigen"
-        other: "{{count}} Anfragen anzeigen"
+        other: "%{count} Anfragen anzeigen"
       results_pagination_user:
         one: "1 Benutzer anzeigen"
-        other: "{{count}} Benutzer anzeigen"
+        other: "%{count} Benutzer anzeigen"
       results_pagination_faq:
         one: "1 Artikel anzeigen"
-        other: "{{count}} Artikel anzeigen"
+        other: "%{count} Artikel anzeigen"
       standalone_search: "Standard-Interface"
       bulkedit_search:
         title: "Massenänderungs-Interface"
@@ -535,13 +535,13 @@ en:
   sessions:
     new:
       title: "Anmelden"
-      description: "Oder Sie können {{create_a_profile}}."
+      description: "Oder Sie können %{create_a_profile}."
       create_a_profile: "Ein Profil erstellen"
-      cross_site_login: "Diese Seite unterstützt cross-site Anmeldungen. Bitte melden Sie sich bei {{current_site}} an. Dann werden Sie automatisch beim Tender Support angemeldet."
-      unclaimed_login: "Ihre Anfrage mit dem Titel '{{discussion_title}}' wurde mit einer Email-Adresse, die bereits auf dieser Tender-Seite existiert, hinzugefügt. Bitte melden Sie sich an, um diese Anfrage Ihrem Account zuzuordnen."
-      automatic_login: "*Bitte beachten Sie:* Sie sind momentan automatisch via {{current_site}} angemeldet als {{curent_email}}."
-      automatic_logout: "Wenn Sie sich abmelden wollen, müssen Sie sich bei {{current_site}} abmelden."
-      whitelist_invite: "Sie können {{apply_new_account}}, wenn Sie eine Email-Adresse benutzen, die auf {{whitelist_emails}} endet."
+      cross_site_login: "Diese Seite unterstützt cross-site Anmeldungen. Bitte melden Sie sich bei %{current_site} an. Dann werden Sie automatisch beim Tender Support angemeldet."
+      unclaimed_login: "Ihre Anfrage mit dem Titel '%{discussion_title}' wurde mit einer Email-Adresse, die bereits auf dieser Tender-Seite existiert, hinzugefügt. Bitte melden Sie sich an, um diese Anfrage Ihrem Account zuzuordnen."
+      automatic_login: "*Bitte beachten Sie:* Sie sind momentan automatisch via %{current_site} angemeldet als %{curent_email}."
+      automatic_logout: "Wenn Sie sich abmelden wollen, müssen Sie sich bei %{current_site} abmelden."
+      whitelist_invite: "Sie können %{apply_new_account}, wenn Sie eine Email-Adresse benutzen, die auf %{whitelist_emails} endet."
       apply_new_account: "Einen neuen Account beantragen"
       label_email: "Email-Adresse"
       label_password: "Passwort"
@@ -552,81 +552,81 @@ en:
       what_do_i_get: "Was kann ich mit einem Profil anfangen?"
       signup_description: "Indem Sie ein Profil erstellen, erhalten Sie die Möglichkeit individuell einzustellen, über welche Anfragen Sie informiert werden und wie Sie Ihre Updates erhalten."
     show:
-      logged_from: "Angemeldet von {{sessions}}. [clear all]"
-      last_logged: "Zuletzt angemeldet von *{{session.ip}}* auf"
+      logged_from: "Angemeldet von %{sessions}. [clear all]"
+      last_logged: "Zuletzt angemeldet von *%{session.ip}* auf"
   site:
     mail:
       activation: |
-        Hallo {{user}},
+        Hallo %{user},
         
         Ihr Konto wurde erfolgreich aktiviert.
         
         Lassen Sie es uns wissen, wenn es noch etwas gibt, das wir für Sie tun können!
-        {{url}}
+        %{url}
       
       import: |
         Hallo,
         
-        {{site}} hat ihren Support auf {{host}} verlegt!
+        %{site} hat ihren Support auf %{host} verlegt!
         
         Wir möchten Sie bitten Ihren Account zu bestätigen, indem Sie die URL unten anklicken.
-        Dies hilft uns sicherzustellen, dass es sich bei ({{email}}) um Ihre Adresse handelt.
+        Dies hilft uns sicherzustellen, dass es sich bei (%{email}) um Ihre Adresse handelt.
         
-          {{url}}
+          %{url}
         
         Danke!
-        {{host}}
+        %{host}
         
       forgot_password: |
         Es scheint so, als hätten Sie Ihr Passwort vergessen. Das macht nichts, das kann jedem passieren!
         Möchten Sie Ihr Passwort zurücksetzen? Hier klicken:
         
-          {{url}}
+          %{url}
         
         Wenn die Passwortänderungsanfrage nicht von Ihnen stammt, ignorieren Sie diese Nachricht bitte einfach und Ihr Passwort bleibt unverändert.
         
         Danke!
-        {{host}}
+        %{host}
       signup: |
         Hallo,
         
-        Vielen Dank für das Erstellen eines Accounts bei {{host}}!
+        Vielen Dank für das Erstellen eines Accounts bei %{host}!
         
         WIr möchten Sie bitten Ihren Account durch das Klicken auf die untenstehende URL zu bestätigen.
-        Dies hilft uns sicherzustellen, dass es sich bei der angegebenen Adresse ({{email}}) um Ihre handelt.
+        Dies hilft uns sicherzustellen, dass es sich bei der angegebenen Adresse (%{email}) um Ihre handelt.
         
-          {{url}}
+          %{url}
         
         Danke!
-        {{host}}
+        %{host}
         
       token: |
         Hallo,
         
-        Sie haben kürzlich ein Kennzeichen für eine private Anfrage '{{title}}' erbeten.
+        Sie haben kürzlich ein Kennzeichen für eine private Anfrage '%{title}' erbeten.
         
         Bitte benutzen Sie den untenstehenden Link, um sich die Anfrage anzuschauen.
         
-        {{url}}
+        %{url}
         
         Danke!
-        {{host}}
+        %{host}
         
       unsubscribe: |
-        Hallo {{user}},
+        Hallo %{user},
         
         Die Abmeldung der Abonnements war erfolgreich!
-        Sie werden keine weiteren Mails von {{site}} erhalten.
+        Sie werden keine weiteren Mails von %{site} erhalten.
         
-        Wenn Sie es sich doch anders überlegen, ändern Sie einfach Ihre Benachrichtigungseinstellungen: {{url}}
+        Wenn Sie es sich doch anders überlegen, ändern Sie einfach Ihre Benachrichtigungseinstellungen: %{url}
   shared:
     attach_file_size: "Sie können Dateien bis zu einer Größe von 10MB anhängen"
-    comments_parsed_with_markdown: "Kommentare werden mit {{markdown}} gefiltert."
+    comments_parsed_with_markdown: "Kommentare werden mit %{markdown} gefiltert."
     adminbar:
       trial: "Test"
       invalid: "Ungültig"
       title: "Account Status"
-      days_left_in_trial: "T-Minus {{current_trial}} Tage"
+      days_left_in_trial: "T-Minus %{current_trial} Tage"
       plan_limits: "Planlimits"
       support_staff: "Support-Mitglieder"
       storage_space: "Speicherplatz"
@@ -646,8 +646,8 @@ en:
         
   tickets:
     # open / closed / etc from lighthouse
-    ticket_status_assigned: "Diese Ticket ist momentan {{state}} und {{user}} zugewiesen"
-    ticket_status: "Diese Ticket ist momentan {{state}}"
+    ticket_status_assigned: "Diese Ticket ist momentan %{state} und %{user} zugewiesen"
+    ticket_status: "Diese Ticket ist momentan %{state}"
     detach: "Lösen sie dieses Ticket von dieser Anfrage"
     delete: "löschen?"        
 
@@ -658,16 +658,16 @@ en:
       unread: "Ungelesen"
       all: "Alle"
     apply:
-      sorry: "Es tut uns Leid, aber diese Adresse ({{email}}) ist nicht verfügbar für einen Benutzer-Account."
+      sorry: "Es tut uns Leid, aber diese Adresse (%{email}) ist nicht verfügbar für einen Benutzer-Account."
       new_account:
         title: "Erstellung eines Accounts"
-        description: "Bitte geben Sie hier Ihre Email-Adresse ein. Wenn Sie eine Email-Adresse haben, die auf {{user_domain}} endet, können Sie einen Account erstellen."
+        description: "Bitte geben Sie hier Ihre Email-Adresse ein. Wenn Sie eine Email-Adresse haben, die auf %{user_domain} endet, können Sie einen Account erstellen."
         checking_email: "Emails abrufen.."
     new_user_form:
       title: "Erstellen Sie Ihr Profil"
-      description: "Dieses Profil ist nur für {{site}} verfügbar."
-      use_openid: "Wenn Sie OpenID &ndash benutzen möchten, fahren Sie fort und {{log_in}}."
-      attach_openid: "Wenn Sie bereits über ein Profil verfügen, müssen Sie sich {{log_in}} und Ihre OpenID URL angeben: {{url}}."
+      description: "Dieses Profil ist nur für %{site} verfügbar."
+      use_openid: "Wenn Sie OpenID &ndash benutzen möchten, fahren Sie fort und %{log_in}."
+      attach_openid: "Wenn Sie bereits über ein Profil verfügen, müssen Sie sich %{log_in} und Ihre OpenID URL angeben: %{url}."
       log_in: "Anmelden"
       problem: "Es gab ein Problem bei der Übermittlung Ihrer Daten"
       private_site_signup: "Ihre Email-Adresse ist gültig, um sich bei dieser Seite anzumelden. Bitte wählen Sie ein Passwort, das mindestens 6 Zeichen lang ist."
@@ -698,8 +698,8 @@ en:
         notify_me: "Benachrichtige mich..."
         involved_with: "über Anfragen, an denen ich beteiligt bin"
         starts_new_discussion: "wenn jemand eine *neue* Anfrage startet"
-        all_discussions: "über alle Anfragen in der {{category_name}} Kategorie."
-        add_to_queue: "wenn Anfragen der {{queue_name}} Warteschlange hinzugefügt werden."
+        all_discussions: "über alle Anfragen in der %{category_name} Kategorie."
+        add_to_queue: "wenn Anfragen der %{queue_name} Warteschlange hinzugefügt werden."
         warning: "*Warnung* Sie möchten wahrscheinlich nur die erste Option wählen (Veränderungen in meinen Anfragen). Wenn Sie die anderen Optionen wählen, werden Sie benachrichtigt, wann immer eine Anfrage in dieser Kategorie verändert wird. Wenn Sie keine Emails erhalten möchten, markieren Sie keine der Optionen."
         btn_update_prefs: "Update Präferenzen"
         api_keys: "API Keys"
@@ -711,15 +711,15 @@ en:
         btn_read_only_key: "Read-only Key zurücksetzen"
     forgot_password:
       confirmation_title: "Emails lesen"
-      confirmation_description: "Um Ihre Identität zu überprüfen, haben wir Ihnen Informationen zugeschickt, wie Sie Ihr Passwort für {{email}} verändern können."
+      confirmation_description: "Um Ihre Identität zu überprüfen, haben wir Ihnen Informationen zugeschickt, wie Sie Ihr Passwort für %{email} verändern können."
       title: "Passwort vergessen"
       description: "Geben Sie Ihre Email-Adresse ein und wir schicken Ihnen die Informationen zu, die Sie benötigen, um ein neues Passwort zu wählen."
-    cross_site_login: "Wenn Sie bereits einen Account bei {{site}} haben, sollten Sie zu {{cross_site_login_link}} gehen."
+    cross_site_login: "Wenn Sie bereits einen Account bei %{site} haben, sollten Sie zu %{cross_site_login_link} gehen."
     cross_site_login_link: "Anmelden"
     btn_sendemail: "Email senden"
     reset_password:
       title: "Passwort zurücksetzen"
-      description: "Willkommen, {{user}}"
+      description: "Willkommen, %{user}"
       btn_reset: "Zurücksetzen"
     owner: "Besitzer"
     supporter: "Supporter"
@@ -727,17 +727,17 @@ en:
     account_disabled: "ACCOUNT DEAKTIVIERT"
     comment_results:
       one: "1 Kommentar"
-      other: "{{count}} Kommentare"
+      other: "%{count} Kommentare"
     discussion_results:
       one: "1 Anfrage"
-      other: "{{count}} Anfrage"
-    result_since: "Ergebnisse seit {{date}}"
+      other: "%{count} Anfrage"
+    result_since: "Ergebnisse seit %{date}"
     welcome:
       title: "Danke für das Erstellen eines Accounts!"
       description: "Nun, da Sie einen Account erstellt haben, können Sie die Support-Seite über die Buttons unten bedienen."
-      cross_site_description: "Diese Support-Seite unterstützt automatische Anmeldung. Wenn Sie sich anmelden wollen, müssen Sie sich bei {{custom_url}} anmelden"
-      account_note: "Bitte beachten Sie, dass dieser Account nur für {{current_host}}, die Support-Seite, gilt."
-      account_note_blank: "Er gilt *nicht* für {{current_website}}"
+      cross_site_description: "Diese Support-Seite unterstützt automatische Anmeldung. Wenn Sie sich anmelden wollen, müssen Sie sich bei %{custom_url} anmelden"
+      account_note: "Bitte beachten Sie, dass dieser Account nur für %{current_host}, die Support-Seite, gilt."
+      account_note_blank: "Er gilt *nicht* für %{current_website}"
       solo_msg: "*Vergessen Sie nicht Ihren Account zu aktivieren!* Überprüfen sie Ihren Posteingang. Dort finden Sie einen Aktivierungs-Link. Das Aktivieren Ihres Accounts schaltet den Verifizierungscode aus, der zu jeder Eingabe bei Anfragen benötigt wird."
       btn_start_discussion: "Eine Anfrage starten"
       btn_browse: "Anfrage durchsuchen"
@@ -746,7 +746,7 @@ en:
       not_logged_msg:
         title: "Bitte aktivieren Sie Ihren Account."
         description: "Danke für das Erstellen eines Accounts. Sie müssen noch einen Schritt ausführen. Bitte klicken Sie den Link, den wir Ihnen geschickt haben, um Ihre Email-Adresse zu bestätigen und Ihren Account zu aktivieren."
-        resend_activation: "Sie haben keine Email erhalten? {{send_again}}"
+        resend_activation: "Sie haben keine Email erhalten? %{send_again}"
         send_again: "Den Link nochmal schicken"
         already_confirmed: "Schon bestätigt?"
       login_here: "Hier anmelden"
@@ -758,21 +758,21 @@ en:
         description: "Bitte beachten Sie, dass wir nie Ihre Email-Adresse öffentlich anzeigen werden. Sie wird nur dafür verwendet Ihnen Updates zuzuschicken."
       custom_avatar:
         title: "Möchten Sie einen individuellen Avatar?"
-        description: "Tender wird den Avatar, den Sie für {{user_email}} festgelegt haben, benutzen."
+        description: "Tender wird den Avatar, den Sie für %{user_email} festgelegt haben, benutzen."
       notifications:
         title: "Benachrichtigungen"
         description: "Möchten Sie über neue Anfrage benachrichtigt werden? Besuchen Sie den Benachrichtungen-Bereich."
       public_profile:
         title: "Besuchen Sie Ihr öffentliches Profil"
-        description: "{{click_here}}, um Ihr öffentliches Profil zu sehen."
+        description: "%{click_here}, um Ihr öffentliches Profil zu sehen."
         click_here: "Hier klicken"
       use_openid:
         title: "Was ist, wenn ich OpenID benutzt habe?XXX"
-        description: "Wenn Sie OpenID benutzt haben, um Ihren Account zu erstellen, benutzen Sie unser {{login_form}}, um sich anzumelden, und finden Sie das Passwort Ihres OpenID Providers. XXX"
+        description: "Wenn Sie OpenID benutzt haben, um Ihren Account zu erstellen, benutzen Sie unser %{login_form}, um sich anzumelden, und finden Sie das Passwort Ihres OpenID Providers. XXX"
         login_form: "Anmeldeformular"
       register:
         title: "Muss ich mich anmelden?"
-        description: "Nein!  Sie können als Gast {{start_new_discussion}}.  Wir werden Ihnen per Email Informationen dazu senden, wie Sie auch ohne Passwort Zugang zu Ihrer Anfrage erlangen."
+        description: "Nein!  Sie können als Gast %{start_new_discussion}.  Wir werden Ihnen per Email Informationen dazu senden, wie Sie auch ohne Passwort Zugang zu Ihrer Anfrage erlangen."
         start_new_discussion: "Eine neue Anfrage starten" 
       information_used:
         title:"Wo wird diese Information angezeigt?"
@@ -788,22 +788,22 @@ en:
     # sessions_controller.rb
     login:
       success: "erfolgreich angemeldet."
-      welcome: "Willkommen zu der {{site}} Support Seite."
+      welcome: "Willkommen zu der %{site} Support Seite."
       success_invitation: "Erfolgreich angemeldet."
-      unverified: "Ihr Benutzerprofil ist noch nicht bestätigt. Bitte klicken Sie den Bestätigungs-Link in der Aktivierungs-Email. Sie können {{unverified_link}}."
+      unverified: "Ihr Benutzerprofil ist noch nicht bestätigt. Bitte klicken Sie den Bestätigungs-Link in der Aktivierungs-Email. Sie können %{unverified_link}."
       unverified_link: "Den Link nochmal senden"
-      unverified_reminder: "Ihr Profil ist noch {{unverified_reminder_link}}"
+      unverified_reminder: "Ihr Profil ist noch %{unverified_reminder_link}"
       unverified_reminder_link: "nicht bestätigt."
-      unclaimed: "Bitte lesen Sie Ihre Emails, um den Aktivierungslink zu finden und Zugang zu dieser Seite zu bekommen. Klicken Sie nochmal {{unclaimed_link}}."
+      unclaimed: "Bitte lesen Sie Ihre Emails, um den Aktivierungslink zu finden und Zugang zu dieser Seite zu bekommen. Klicken Sie nochmal %{unclaimed_link}."
       unclaimed_link: "Link senden"
-      failed: "Sie konnten nicht als '{{email}}' angemeldet werden."
-      failed_openid: "Es tut uns Leid, aber es gibt keinen Benutzer mit dieser OpenID URL ({{url}})."
+      failed: "Sie konnten nicht als '%{email}' angemeldet werden."
+      failed_openid: "Es tut uns Leid, aber es gibt keinen Benutzer mit dieser OpenID URL (%{url})."
     logout:
       success: "Sie haben sich abgemeldet."
       # application.rb
     not_found: "Die Seite, die Sie suchen, kann nicht gefunden werden"
     # assets_controller.rb
-    asset_delete: "{{filename}} wurde gelöscht."
+    asset_delete: "%{filename} wurde gelöscht."
     # autoresponders_controller.rb
     autoresponders:
       new: "Sie müssen erst einige Kategorien erstellen, um autoresponder benutzen zu können"
@@ -834,18 +834,18 @@ en:
     # company_members_controller.rb
     company_members:
       no_valid: "Keine gültigen Emails."
-      success: "{{emails}} wurde eingeladen."
-      delete: "{{email}} wurde aus dieser Firma entfernt."
+      success: "%{emails} wurde eingeladen."
+      delete: "%{email} wurde aus dieser Firma entfernt."
     # dashboard_controller.rb
     dashboard:
       bulk_success: 
         one: "1 Anfrage wird aktualisiert. Dieser Vorgang kann einige Minuten dauern."
-        other: "{{count}} Anfrage werden aktualisiert. Dieser Vorgang kann einige Minuten dauern."
+        other: "%{count} Anfrage werden aktualisiert. Dieser Vorgang kann einige Minuten dauern."
       bulk_error: "Es ist ein Fehler aufgetreten. Vergewissern Sie sich, dass Sie eine Anfrage zum Verändern ausgewählt haben."
       comments_error: "Kein Kommentar oder Aktion ausgewählt."
-      current_plan: "Diese Seite hat nun den {{plan}} Status."
+      current_plan: "Diese Seite hat nun den %{plan} Status."
       billing_update: "Ihre Rechnungseinstellungen wurden aktualisiert."
-      billing_authorized: "Nur der Seiteninhaber {{owner}} hat das Recht die Rechnungs- und Planeistellungen einzusehen und zu verändern."
+      billing_authorized: "Nur der Seiteninhaber %{owner} hat das Recht die Rechnungs- und Planeistellungen einzusehen und zu verändern."
     # discussions_controller.rb
     discussions:
       no_token: "Bitte versuchen Sie noch einmal die Anfrage zu erstellen (you may have been logged out before submitting your comment)."
@@ -898,25 +898,25 @@ en:
     # trackers_controller.rb
     # users_controller.rb
     users:
-      private_error: "Es tut uns Leid, aber diese Email-Adresse ({{email}}) ist für einen Benutzer-Account nicht verfügbar." 
+      private_error: "Es tut uns Leid, aber diese Email-Adresse (%{email}) ist für einen Benutzer-Account nicht verfügbar." 
       private_invite: "Ihr Account konnte nicht erstellt werden. Sie benötigen eine Einladung für diese private Seite."
-      private_invite_confirm: "Willkommen zu der {{site}} Support-Seite."
-      private_invite_activate: "Willkommen zu der {{site}} Support-Seite. Sie erhalten eine Email mit Ihrem Aktivierungscode. Klicken Sie den Link, um Ihren Account zu aktivieren."
+      private_invite_confirm: "Willkommen zu der %{site} Support-Seite."
+      private_invite_activate: "Willkommen zu der %{site} Support-Seite. Sie erhalten eine Email mit Ihrem Aktivierungscode. Klicken Sie den Link, um Ihren Account zu aktivieren."
       private_setup_error: "Ihr Account konnte nicht erstellt werden. Bitte schauen Sie sich die untenstehende Liste der möglichen Fehler an."
       not_found: "Es tut uns Leid, aber diese Email-Adresse konnte nicht in unserem System gefunden werden. Bitte versuchen Sie es noch einmal."
       new_activation: "Sie haben eine neue Aktivierungs-Email erhalten. Bitte klicken Sie auf den Link, um Ihre Email-Adresse zu bestätigen."
       activate_success: "Aktivierung erfolgt!"
       activate_missing: "Der Aktivierungscode hat gefehlt. Bitte benutzen Sie die URL aus Ihrer Email."
       activate_error: "Es ist ein Fehler aufgetreten mit dem Aktivierungscode, den Sie eingegeben haben. Bitte überprüfen Sie den Link, den Sie eingegeben haben."
-      forgot_password_success: "Eine Email wurde an {{email}} versendet mit Informationen, wie sie Ihr Passwort verändern können"
-      forgot_password_error: "Es ist kein Account mit der Email {{email}} auffindbar"
+      forgot_password_success: "Eine Email wurde an %{email} versendet mit Informationen, wie sie Ihr Passwort verändern können"
+      forgot_password_error: "Es ist kein Account mit der Email %{email} auffindbar"
       no_user: "Es wurde kein Benutzer mit diesem Aktivierungscode gefunden. Geben Sie unten Ihre Email-Adresse ein, um einen neuen Code zugeschickt zu bekommen."
       reset_password_sucess: "Ihr Passwort wurde verändert. Bitte melden Sie sich an, um fortzufahren."
       notifications_update_success: "Ihre Email-Benachrichtigungs-Präferenzen wurden erfolgreich aktualisiert."
-      disabled_delete: "Dem Benutzer {{user}} wurde der Zugang zu diesem Account verweigert. Sie können Ihn über seine Email-Adresse erneut hinzufügen."
-      supporter_delete: "Der Benutzer {{user}} wurde von der Liste der Supporter entfernt. Sie können ihn wieder hinzufügen, indem Sie seine Profilseite besuchen."
-      mark_spammer: "{{user}} wurde als Spammer gemeldet. Es kann einige Minuten dauern, bis seine Kommentare und Anfrage verschwinden."
-      openid_update: "Ihre OpenID URL wurde geändert zu {{openid_url}}."
+      disabled_delete: "Dem Benutzer %{user} wurde der Zugang zu diesem Account verweigert. Sie können Ihn über seine Email-Adresse erneut hinzufügen."
+      supporter_delete: "Der Benutzer %{user} wurde von der Liste der Supporter entfernt. Sie können ihn wieder hinzufügen, indem Sie seine Profilseite besuchen."
+      mark_spammer: "%{user} wurde als Spammer gemeldet. Es kann einige Minuten dauern, bis seine Kommentare und Anfrage verschwinden."
+      openid_update: "Ihre OpenID URL wurde geändert zu %{openid_url}."
       openid_cleared: "Your OpenID URL was cleared.XXX"
       mark_as_read: "Alle Ihre Anfrage wurden als 'gelesen' markiert"
       self_remove_error: "Sie können sich nicht selbst entfernen."
@@ -927,13 +927,13 @@ en:
   helpers:
     # admin_helper
     plan_match: "Dies ist die Plan Partition, die Ihrer momentanen Benutzung entspricht XXX"
-    trial_ends_on: "Ihre Test-Zeit endet in {{trial_days}} Tagen."
+    trial_ends_on: "Ihre Test-Zeit endet in %{trial_days} Tagen."
     trial_expired: "Ihre Test-Zeit ist abgelaufen."
     billing_problems: "Es gibt ein Problem mit Ihren Rechnungsinformationen."
     no_plan: "Sie haben keinen Plan ausgewählt"
     payment_due: "Ein Rechnung steht aus"
     fix_this: "Reparieren."
-    please_notify: "Bitte benachrichtigen Sie den Seitenbesitzer: {{owner_name}}."
+    please_notify: "Bitte benachrichtigen Sie den Seitenbesitzer: %{owner_name}."
     # dashboard_helper
     your_plan: "Ihr Plan"
     upgrade_link: "Upgrade"
@@ -943,10 +943,10 @@ en:
     # users_helper
     stats_discussion_sentence:
       one: "1 begonnene Anfrage; "
-      other: "{{count}} begonnene Anfrage; "
+      other: "%{count} begonnene Anfrage; "
     stats_reply_sentence:
       one: "1 getätigte Antwort"
-      other: "{{count}} getätigte Antworten"
+      other: "%{count} getätigte Antworten"
     # webhooks_helper
     event_description:
       discussion: "Anfrage wird erstellt"
@@ -957,15 +957,15 @@ en:
       user: "Ein neuer Benutzer meldet sich an"
   # mailers
   mailers:
-    queue_notification: "'{{title}}' wurde in die Warteschlange von '{{name}}' einsortiert."
-    heartbeat: "Heartbeat für {{email}}"
+    queue_notification: "'%{title}' wurde in die Warteschlange von '%{name}' einsortiert."
+    heartbeat: "Heartbeat für %{email}"
     invitation_notification: "Sie wurden zu einer Tender Support-Seite eingeladen"
     signup_notification: "Bitte aktivieren Sie Ihren neuen Account"
-    import_notification: "Bitte aktivieren Sie Ihren neuen Account für {{site}}"
+    import_notification: "Bitte aktivieren Sie Ihren neuen Account für %{site}"
     unsubscribe_notification: "Sie wurden ent-abonniert XXX"
     activation: "Ihr Account wurde aktiviert!"
     password_reset: "Anfrage, um ein neues Passwort zu erstellen"
-    token: "Ihr Kennzeichen für '{{discussion}}'"
+    token: "Ihr Kennzeichen für '%{discussion}'"
   # page titles
   title:
     invite: "Support-Mitglied-Einladung"
@@ -978,7 +978,7 @@ en:
   # preview formatting popup
   preview:
     title: "Vorschau der Formatierung"
-    description: "Tender nutzt primär {{markdown_link}} zum Formatieren Ihres Texts."
+    description: "Tender nutzt primär %{markdown_link} zum Formatieren Ihres Texts."
   # formatting help popup
   formatting:
     title: "Formatierungs-Hilfe"
