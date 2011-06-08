@@ -190,7 +190,7 @@ es:
   # =============================================
 
   home: "Inicio"
-  welcome: 
+  welcome: "Bienvenid@"
   discussion_is_private: "Esta conversación es privada"
   # conjunctions and time
   for: "para"
@@ -274,12 +274,12 @@ es:
   by: 'por'
   # via email
   via: "via {{source}}"
-  found_a_bug: "¿Ha encontrado un fallo en Tender?"
+  found_a_bug: "¿Has encontrado un fallo en Tender?"
   layouts:
     footer:
       copyright: "Tender&trade; es un producto de {{entp_site}}."
-      questions: 
-      start_discussion: 
+      questions: "preguntas"
+      start_discussion: "Comenzar una conversación"
     footerbox:
       title_discussions: "Conversaciones recientes"
       title_faqs: "Artículos recientes"
@@ -406,7 +406,7 @@ es:
     btn_comment: "Comentario"
     btn_comment_and_resolve: "Comentar &amp; Resolver"
     ticket_selector:
-      title: 
+      title: "Título"
       no_search_terms: "No hay términos de búsqueda"
       search_for_a_ticket: "Buscar un ticket..."
       associate_a_ticket: "Asociar un ticket Lighthouse"
@@ -687,8 +687,8 @@ es:
         title_only: "Buscar sólo por Título"
         author_email: "Buscar sólo por Email"
       section:
-       label: 
-       all:     
+       label: "Etiqueta"
+       all: "Todas"    
       access:
         public_and_private: "Público & Privado"
         public_only: "Sólo Publico"
@@ -830,10 +830,10 @@ es:
           
   users:
     header:
-      edit_your_profile: 
-      edit_a_profile: 
-      unread: 
-      all: 
+      edit_your_profile: "Edita tu perfil"
+      edit_a_profile: "Edita un perfil"
+      unread: "No leído"
+      all: "Todos"
     apply:
       sorry: "Lo siento, no puede elegir la dirección ({{email}}) como cuenta de usuario."
       new_account:
@@ -860,15 +860,15 @@ es:
     edit:
       title: "Gestionar Cuenta"
       description:
-        current_user: 
-        general: 
+        current_user: "Usuario actual"
+        general: "General"
       account_form:
         title: "Información Básica de Cuenta"
         company: "Empresa"
         btn_save_information: "Guardar Información"
         openid: "OpenID (Opcional)"
-        label_set: 
-        label_reset: 
+        label_set: "Establecer etiqueta" 
+        label_reset: "Eliminar etiqueta"
         btn_save_openid: "Guardar Información Open ID"
         email_preferences: "Preferencias Email"
         notify_me: "Avíseme..."
@@ -883,8 +883,8 @@ es:
         label_read_only: "Acceso API sólo-lectura"
         hint_apikey: "Utilizar para el acceso de lectura-escritura a JSON API"
         hint_read_only: "Utilizado en atom feeds autentificados."
-        btn_reset_key: 
-        btn_read_only_key: 
+        btn_reset_key: "Resetear clave"
+        btn_read_only_key: "Clave de sólo lectura"
     forgot_password:
       confirmation_title: "Compruebe su email"
       confirmation_description: "Para verificar su identidad, le hemos enviado información sobre cómo resetear su contraseña a {{email}}"
@@ -1150,24 +1150,24 @@ es:
     changelog: "Registro de cambios"
     new_session: "Acceso / Base de Conocimiento"
     notifications: "Miembros / Admin"
-    discussions:   
+    discussions: "Conversaciones"   
   # preview formatting popup
   preview:
-    title:
-    description:
+    title: "Asunto"
+    description: "Descripción"
   # formatting help popup
   formatting:
-    title: 
+    title:
     bold_and_italics:
-      title: 
-      description: 
-      bold: 
-      italic: 
+      title: "Asunto"
+      description: "Descripción"
+      bold: "Negrita"
+      italic: "Cursiva"
     links:
-      title: 
-      description: 
-      example: 
+      title: "Asunto"
+      description: "Descripción"
+      example: "Ejemplo"
     code_blocks:
-      title: 
-      description: 
+      title: "Asunto"
+      description: "Descripción"
   
